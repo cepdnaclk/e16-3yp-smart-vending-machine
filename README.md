@@ -1,4 +1,4 @@
-#Smart Vending Machine
+# Smart Vending Machine
 
 ## Group Members
    * S Bragadeeshan   :: E/16/055 :: e16055@eng.pdn.ac.lk
@@ -12,6 +12,17 @@
  ## GOALS
   * Making sure to record each and every transaction done by the machine in real time
   * Giving a user friendly Experience to every Consumer possible
+  
+ ## Technologies
+  ### Cashless payments																
+       * Using mobil e payment methods and  Card Transaction .
+  ### Smartphone interaction																
+        * Using smart phones to selection of the products , using the money transfer systems		
+          like the help of google wallet.
+  ### Energy-Saving Vending															
+         * Making sure the vending machine only works when a customers there. 
+           Minor changes can be made to ensure energy saving.
+
   
  ## How it is going to work
  
