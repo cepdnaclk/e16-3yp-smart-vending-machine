@@ -15,6 +15,8 @@
   
  ## How it is going to work
  
+![GUI](https://user-images.githubusercontent.com/68198134/96712370-a8b2c680-13bc-11eb-8d2e-34221f690e55.png)
+ 
   
   
   
