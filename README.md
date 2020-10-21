@@ -15,13 +15,13 @@
   
  ## Technologies
   ### Cashless payments																
-     * Using mobil e payment methods and  Card Transaction .
+   * Using mobil e payment methods and  Card Transaction .
   ### Smartphone interaction																
-      * Using smart phones to selection of the products , using the money transfer systems		
-        like the help of google wallet.
+   * Using smart phones to selection of the products , using the money transfer systems		
+     like the help of google wallet.
   ### Energy-Saving Vending															
-      * Making sure the vending machine only works when a customers there. 
-        Minor changes can be made to ensure energy saving.
+   * Making sure the vending machine only works when a customers there. 
+     Minor changes can be made to ensure energy saving.
 
   
  ## How it is going to work
