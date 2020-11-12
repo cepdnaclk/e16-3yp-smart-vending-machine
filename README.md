@@ -1,5 +1,9 @@
 # Smart Vending Machine
 
+**Hello everyone!! Welcome to our project.**  
+
+[**Click here to check our website!!**](https://cepdnaclk.github.io/e16-3yp-smart-vending-machine/index.html)
+
 ## Group Members
    * S Bragadeeshan   :: E/16/055 :: e16055@eng.pdn.ac.lk
    * V Harikaran      :: E/16/172 :: e16172@eng.pdn.ac.lk
