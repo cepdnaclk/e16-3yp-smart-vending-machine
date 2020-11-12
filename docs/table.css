@@ -1,0 +1,75 @@
+.w3-padding-16{padding-top:16px!important;padding-bottom:16px!important}
+.w3-padding-24{padding-top:24px!important;padding-bottom:24px!important}
+/* .w3-ul ,.w3-border ,.w3-center ,.w3-hover-shadow{border-color:#f44336!important}  */
+.w3-border{border:1px solid #ccc!important}
+.w3-xlarge{font-size:24px!important}
+.w3-padding-32{padding-top:32px!important;padding-bottom:32px!important}
+.w3-green{color:#fff!important;background-color:#4CAF50!important}
+.w3-black{color:rgb(245, 237, 237)!important;background-color:#000500!important}
+.w3-third{float:left;width:100%}
+.w3-margin-bottom{margin-bottom:16px!important}
+.w3-ul{list-style-type:none;padding:0;margin:0 }
+.w3-ul li{padding:8px 16px;border-bottom:1px solid #ddd}
+.w3-border{border:1px solid #ccc!important}
+.w3-center{text-align:center}
+.w3-hover-shadow{box-shadow:0 4px 10px 0 rgba(0,0,0,0.2),0 4px 20px 0 rgba(0,0,0,0.19)}
+.w3-hover-shadow:hover{box-shadow:0 4px 10px 0 rgba(0,0,0,0.2),0 4px 20px 0 rgba(0,0,0,0.19)}
+.w3-container{padding:0.01em 16px}
+.w3-opacity{opacity:0.60}
+.w3-button{white-space:normal}
+.w3-wide{letter-spacing:4px}
+.w3-padding-large{padding:12px 24px!important}
+.w3-row-padding{padding:0 8px}
+.w3-center{text-align:center!important}
+
+
+/*h1.contant{
+  color: rgb(224, 238, 224);
+   background:none;
+ }
+
+ .navi{
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+ }
+ .navi,li{
+  display: inline-block;
+  margin: 0 30px 0 0;
+  width: auto;
+ }*/
+
+ h1.contant{
+  color: rgb(224, 238, 224);
+   background:none;
+ }
+ .navi{
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+ }
+ .navi{
+  display:flex;
+  margin: 0 30px 0 0;
+  width: auto;
+ }
+ .navi-li{
+ 	margin: 0 30px 0 0;
+ 	color: black;
+  width: auto;
+
+ }
+  .logo-image{
+   margin: 0 20px 0 0;
+   background-image: url("logoo.jpeg");
+   background-size:300px ;
+   background-repeat: no-repeat;
+   display: inline-block;
+   height: 100px;
+   text-indent: -999999px;
+   width: 300px;
+ }
+ header {
+  background:rgba(8, 235, 186, 0.322);
+  padding: 20px;
+  }
