@@ -30,14 +30,16 @@ body {font-size:16px;}
  <nav class="w3-sidebar w3-red w3-collapse w3-top w3-large w3-padding" style="z-index:3;width:300px;font-weight:bold;" id="mySidebar"><br>
   <a href="javascript:void(0)" onclick="w3_close()" class="w3-button w3-hide-large w3-display-topleft" style="width:100%;font-size:22px">Close Menu</a>
   <div class="w3-container">
-    <h3 class="w3-padding-64"><b>Smart choices<br>vending</b></h3>
+    <h3 class="w3-padding-64"><b>Smart Vending Machine<br>3rd year Project</b></h3>
   </div>
   <div class="w3-bar-block">
     <a href="#" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Home</a> 
     <a href="#Solution" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Solution</a> 
-    <a href="#services" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Services</a> 
+    <a href="#Architecture" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Architecture</a> 
+    <a href="#Hardware" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Hardware Components</a> 
+    <a href="#datapath" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Datapath</a> 
     <a href="#designers" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Designers</a> 
-    <a href="#packages" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Packages</a> 
+    <a href="#budget" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Budget</a> 
     <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Contact</a>
   </div>
 </nav> 
@@ -69,9 +71,9 @@ body {font-size:16px;}
       <img src="show3.png" style="width:100%" onclick="onClick(this)" alt="White walls with designer chairs"> -->
     </div>
       
-       <hr style="width:50px;border:5px solid red" class="w3-round">
-    <p>Having to pay for the products with cash most of the time.Easy to hack Traditional vending machine.Prices and Expiry dates are not checked by the  Traditional vending machine.
-<p>and the (Gender ,Age ,generation wise )analysis , 24 hours Distribution and vending services , Transaction Datbase services.
+       
+    <p> Problems in having a traditional vending machine are - Having to pay for the products with cash most of the time.Easy to hack Traditional vending machine.Prices and Expiry dates are not checked by the  Traditional vending machine.
+<p> the solution to all the problem is a Smart vending machine which has the (Gender ,Age ,generation wise) analysis , 24 hours Distribution and vending services , Transaction Datbase services.
       Which can be used to check the performance of a product in a specific market.Prices and expiry dates are real time because it is connected to the cloud.</p>
     </p>
   </div>
@@ -94,15 +96,61 @@ body {font-size:16px;}
     </div>
   </div>
 
-  <!-- Services -->
-  <div class="w3-container" id="services" style="margin-top:75px">
-    <h1 class="w3-xxxlarge w3-text-red"><b>Services.</b></h1>
+  <!-- Architecture -->
+  <div class="w3-container" id="Architecture" style="margin-top:75px">
+    <h1 class="w3-xxxlarge w3-text-red"><b>Software Architecture.</b></h1>
     <hr style="width:50px;border:5px solid red" class="w3-round">
-    <p>Services we offer - Real time tracking of the market of a product,Full Analysis of a 
-        product in how many people have bought it <p>and the (Gender ,Age ,generation wise )analysis , 
-        24 hours Distribution and vending services , Transaction Datbase services.</p>
-    </p>
+    <img src="show2.png" style="width:100%" onclick="onClick(this)" alt="Concrete meets bricks"> 
+    <h3 class="w3-xlarge w3-text-red"><b>   Back End Tasks Done</b></h3>
+   <p>  User Registration (User /Admin/Companies)</p>
+   <p>  Payment Handling</p>
+   <p>  Add /Modify/Delete Items</p>
+   <p>  Validation</p>
+   <p>  Transactions</p>
+
+   <h3 class="w3-xlarge w3-text-red"><b>Server</b></h3>
+   <p>  Local server is made using <b>Python Django</b>  </p>
+   <p> The database is made in <b>mongoDB</b>  </p>
+   <p>  Communication to AWS is done through HTTPS </p>
+   <img src="show5.png" style="width:300px;border:300px" onclick="onClick(this)" alt="Django"> 
+   <img src="show6.png" style="width:300px;border:300px" onclick="onClick(this)" alt="mongoDB"> 
+
+   <h3 class="w3-xlarge w3-text-red"><b>Cloud Server</b></h3>
+   <p> Host in amazon EC2 computer </p>
+   <p>  Built with Python Django </p>
+   <p>  Used database Mongo DB
+      </p>
+   
+   <img src="show7.png" style="width:300px;border:300px" onclick="onClick(this)" alt="AWS"> 
+   
+
+
+
   </div>
+
+  <!-- Hardware -->
+  <div class="w3-container" id="Hardware" style="margin-top:75px">
+    <h1 class="w3-xxxlarge w3-text-red"><b>Hardware Components</b></h1>
+    <hr style="width:50px;border:5px solid red" class="w3-round">
+    
+    <p>Raspberry Pi 3 </p>
+      <p>Stepper Motor</p>
+      <p> Stepper motor driver</p>
+      <p> Camera Module V2 for Raspberry Pi</p>
+      <p> Relay Module</p>
+      <p> Weight Sensor</p>
+      <p>  PIR sensor</p>
+      <img src="show3.png" style="width:100%" onclick="onClick(this)" alt="Concrete meets bricks"> 
+
+  </div>
+
+<!-- Hardware -->
+  <div class="w3-container" id="datapath" style="margin-top:75px">
+    <h1 class="w3-xxxlarge w3-text-red"><b>Data Path.</b></h1>
+    <hr style="width:50px;border:5px solid red" class="w3-round">
+    <img src="show8.png" style="width:50%" onclick="onClick(this)" alt="Concrete meets bricks"> 
+    <h3 class="w3-xxlarge w3-text-red"><b>   FlowChart </b></h3>
+    <img src="show9.png" style="width:80%" onclick="onClick(this)" alt="Concrete meets bricks"> 
   
   <!-- Designers -->
   <div class="w3-container" id="designers" style="margin-top:75px">
@@ -150,49 +198,13 @@ body {font-size:16px;}
     </div>
   </div>
 
-  <!-- Packages / Pricing Tables -->
-  <div class="w3-container" id="packages" style="margin-top:75px">
-    <h1 class="w3-xxxlarge w3-text-red"><b>Packages.</b></h1>
-    <hr style="width:50px;border:5px solid red" class="w3-round">
-<!--     <p>Some text our prices. Lorem ipsum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure</p> -->
-  </div>
+   <!-- The Budget -->
 
-  <div class="w3-row-padding">
-    <div class="w3-half w3-margin-bottom">
-      <ul class="w3-ul w3-light-grey w3-center">
-        <li class="w3-dark-grey w3-xlarge w3-padding-32">Basic</li>
-        <li class="w3-padding-16">Product analysis,</li>
-        <li class="w3-padding-16">24 hours service</li>
-       <li class="w3-padding-16">Mini ads</li> 
-        <li class="w3-padding-16">20%  discount</li>
-        <li class="w3-padding-16">Good deals</li>
-        <li class="w3-padding-16">
-          <h2>$ 199</h2>
-          <span class="w3-opacity">per machine</span>
-        </li>
-        <li class="w3-light-grey w3-padding-24">
-          <button class="w3-button w3-white w3-padding-large w3-hover-black">Sign Up</button>
-        </li>
-      </ul>
-    </div>
-        
-    <div class="w3-half">
-      <ul class="w3-ul w3-light-grey w3-center">
-        <li class="w3-red w3-xlarge w3-padding-32">Pro</li>
-        <li class="w3-padding-16">Floorplanning</li>
-        <li class="w3-padding-16">24 hours service</li>
-        <li class="w3-padding-16"> personalized product analysis</li>
-        <li class="w3-padding-16">personlized ads</li>
-        <li class="w3-padding-16">monthly analysis reports</li>
-        <li class="w3-padding-16">
-          <h2>$ 249</h2>
-          <span class="w3-opacity">per machine</span>
-        </li>
-        <li class="w3-light-grey w3-padding-24">
-          <button class="w3-button w3-red w3-padding-large w3-hover-black">Sign Up</button>
-        </li>
-      </ul>
-    </div>
+  <div class="w3-container" id="Budget" style="margin-top:75px">
+    <h1 class="w3-xxxlarge w3-text-red"><b>Budget.</b></h1>
+    <hr style="width:50px;border:5px solid red" class="w3-round">
+    <img src="show4.png" style="width:100%" onclick="onClick(this)" alt="Concrete meets bricks"> 
+
   </div>
   
   <!-- Contact -->
