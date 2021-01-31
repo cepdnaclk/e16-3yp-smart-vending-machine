@@ -152,11 +152,11 @@ EMAIL_PORT = 587
 EMAIL_USE_TLS = True
 EMAIL_HOST_USER = 'happyvendingteam@gmail.com'
 
-EMAIL_HOST_PASSWORD = 'Vk6428987'
+EMAIL_HOST_PASSWORD = '************'
 
 
-# AWS_ACCESS_KEY_ID = 'AKIA3AI24HBYXWEGQD4J'
-# AWS_SECRET_ACCESS_KEY = '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'
+# AWS_ACCESS_KEY_ID = '**************'
+# AWS_SECRET_ACCESS_KEY = '***************************'
 # AWS_STORAGE_BUCKET_NAME = 'harihappyvending'
 # AWS_S3_FILE_OVERWRITE = False
 # AWS_DEFAULT_ACL = None
