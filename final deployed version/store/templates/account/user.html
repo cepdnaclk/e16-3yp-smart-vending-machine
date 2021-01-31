@@ -1,0 +1,42 @@
+{% extends 'store/main1.html' %}
+
+{% block content %}
+
+{%  include 'account/status.html' %}
+
+<div class="row">
+	<div class="col-md">
+		<div class="card card-body">
+			<table class="table table-sm">
+				<tr>
+					<th>OrderId</th>
+					<th>OrderItem</th>
+					<th>quantity</th>
+					<th>Date Orderd</th>
+					<th>Transaction status</th>
+					<th>Delivered Status</th>
+					 
+				</tr>
+
+				{% for item in prodect %}
+
+				 
+
+				<tr>
+					<td>{{item.order.id}}</td>
+					<td>{{item.product.name}}</td>
+					<td>{{item.quantity}}</td>
+					<td>{{item.order.date_ordered}}</td>
+					<td>{{item.order.complete}}</td>
+					<td>{{item.order.status}}</td>
+					 
+				</tr>
+				 
+				{% endfor %}
+
+			</table>
+		</div>
+	</div>
+</div>
+
+{% endblock %}

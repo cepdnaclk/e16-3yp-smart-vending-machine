@@ -1,0 +1,64 @@
+{%  extends 'account/main.html' %}
+
+{% block content %}
+
+
+		<br>
+		<div class="row">
+			<div class="col">
+				<div class="card card-body">
+					<form method="get">
+						{{ form.management_form }}
+						{{myFilter.form}}
+						<br>
+				    <button class="btn btn-primary" type="submit">Search</button>
+				  </form>
+				</div>
+			</div>
+			
+		</div>
+		 
+		<br>
+
+		<div class="row">
+			<div class="col-md-9">
+				<div class="card card-body">
+					<h5>Products</h5>
+				</div>
+				<div class="card card-body">
+					<a class="btn btn-primary  btn-sm btn-block" href="{% url 'create_product' %}">Create Product</a>
+					<table class="table">
+						<tr>
+							<th>Product</th>
+							<th>Name</th>
+							<th>Available</th>
+							<th>Place</th>
+							<th>Price</th>
+							<th>Update</th>
+							<th>Remove</th>
+						</tr>
+
+						{% for i in products %}
+							<tr>
+								<td><img class="thumbnail" src="{{i.imageURL}}"></td>
+								<td>{{i.name}}</td>
+								<td>{{i.available}}</td>
+								<td>{{i.place}}</td>
+								<td>{{i.price}}</td>
+								<td><a class="btn btn-sm btn-info" href="{% url 'update_product' i.id %}">Update</a></td>
+
+								<td><a class="btn btn-sm btn-danger" href="{% url 'delete_product' i.id %}">Delete</a></td>
+							</tr>
+						{% endfor %}
+						
+					</table>
+				</div>
+			</div>
+			
+		</div>
+
+		<script type="text/javascript">
+			// location.reload()
+		</script>
+
+{% endblock content %}

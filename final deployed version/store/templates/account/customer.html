@@ -1,0 +1,94 @@
+{%  extends 'account/main.html' %}
+
+{% block content %}
+
+	<br>
+
+<style>
+	.profile-pic1{
+		max-width: 100px;
+		max-height:100px;
+		margin: 0 auto;
+		border-radius: 50%;
+	}
+</style>
+
+<div class="row">
+	<div class="col-md-3">
+		<div class="card card-body">
+			<img class="profile-pic1" src="{{customer.profile_pic.url}}" >
+			<h3 style="text-align: center">{{customer.name}}</h3>
+		
+	 
+			<!-- <a class="btn btn-outline-info  btn-sm btn-block" href="">Update Customer</a>
+			<a class="btn btn-outline-danger  btn-sm btn-block" href="">Delete Customer</a>
+ -->
+		</div>
+	</div>
+
+	<div class="col-md">
+		<div class="card card-body">
+			<h5>Contact Information</h5>
+			<hr>
+			<p>Email: {{customer.email}}</p>
+			<p>Phone: {{customer.phone}}</p>
+		</div>
+	</div>
+
+	<div class="col-md">
+		<div class="card card-body">
+			<h5>Total Orders</h5>
+			<hr>
+			<h1 style="text-align: center;padding: 10px">{{order_count}}</h1>
+		</div>
+	</div>
+</div>
+
+
+<br>
+<div class="row">
+	<div class="col">
+		<div class="card card-body">
+			<form method="get">
+				{{myFilter.form}}
+		    <button class="btn btn-primary" type="submit">Search</button>
+		  </form>
+		</div>
+	</div>
+	
+</div>
+<br>
+
+<div class="row">
+	<div class="col-md">
+		<div class="card card-body">
+			<table class="table table-sm">
+				<tr>
+					<th>OrderId</th>
+					<th>TransactionId</th>
+					<th>Date Orderd</th>
+					<th>Transaction status</th>
+					<th>Delivered Status</th>
+					<!-- <th>Update</th>
+					<th>Remove</th> -->
+				</tr>
+
+				{% for order in orders %}
+
+				<tr>
+					<td>{{order.id}}</td>
+					<td>{{order.transaction_id}}</td>
+					<td>{{order.date_ordered}}</td>
+					<td>{{order.complete}}</td>
+					<td>{{order.status}}</td>
+					<!-- <td><a class="btn btn-sm btn-info" href="">Update</a></td>
+					<td><a class="btn btn-sm btn-danger" href="">Remove</a></td> -->
+				</tr>
+				{% endfor %}
+
+			</table>
+		</div>
+	</div>
+</div>
+
+{% endblock %}
