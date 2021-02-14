@@ -4,12 +4,14 @@
 
 [**Click here to check our website!!**](https://cepdnaclk.github.io/e16-3yp-smart-vending-machine/index.html)
 
+
 ## Group Members
    > [S Bragadeeshan](https://github.com/Bragadeeshan)   :: E/16/055 :: e16055@eng.pdn.ac.lk
    
    > [V Harikaran](https://github.com/Karikaranvetti)     :: E/16/172 :: e16172@eng.pdn.ac.lk
    
    > [S Girishikan](https://github.com/girish4848)   :: E/16/115 :: e16115@eng.pdn.ac.lk
+   
    
    ## Table of contents
 
@@ -18,8 +20,9 @@
 3. >[Solutions](https://github.com/cepdnaclk/e16-3yp-smart-vending-machine#solutions)
 4. >[Technologies](https://github.com/cepdnaclk/e16-3yp-smart-vending-machine#technologies)
 5. >[Testing](https://github.com/cepdnaclk/e16-3yp-smart-vending-machine#testing)
-6. >[Detailed budget](https://github.com/cepdnaclk/e16-3yp-smart-vending-machine#detailed-budget)
+6. >[Detailed budget](https://github.com/cepdnaclk/e16-3yp-smart-vending-machine#budget)
 7. >[Links](https://github.com/cepdnaclk/e16-3yp-smart-vending-machine#Links)
+
  
  ## PROBLEMS
    Lack of 24 hrs Open Shops.MRP products sold for higher prices.Having a big space for a shop.Having to pay for the products with cash most of the time.Easy to hack Traditional vending machine.Prices and Expiry dates are not checked by the  Traditional vending machine.
@@ -39,7 +42,7 @@ the solution to all the problem is a Smart vending machine which has the (Gender
  ![overview](https://github.com/cepdnaclk/e16-3yp-smart-vending-machine/blob/main/docs/show1.png)
 
   
- ## Technologies
+ ## TECHNOLOGIES
   ### Cashless payments																
    * Using mobil e payment methods and  Card Transaction .
   ### Smartphone interaction																
@@ -50,15 +53,26 @@ the solution to all the problem is a Smart vending machine which has the (Gender
      Minor changes can be made to ensure energy saving.
 
   
- ## How it is going to work
+ ## TESTING
  
-![GUI](https://user-images.githubusercontent.com/68198134/96712370-a8b2c680-13bc-11eb-8d2e-34221f690e55.png)
+  ### URL unit Testing
+   * This test was done in order to check whether the end to end data transaction is happening or not.   
+   ![testing](https://github.com/cepdnaclk/e16-3yp-smart-vending-machine/blob/main/docs/test1.png)
+  
+  ### POST/GET Request unit Testing
+   * This test to check the post and get requests
+   ![testing](https://github.com/cepdnaclk/e16-3yp-smart-vending-machine/blob/main/docs/test2.png)
+   ![testing](https://github.com/cepdnaclk/e16-3yp-smart-vending-machine/blob/main/docs/test3.png)
+  
+  ### Form Validation Testing
+   * This test to check the Forms
+   ![testing](https://github.com/cepdnaclk/e16-3yp-smart-vending-machine/blob/main/docs/test4.png)
+   
  
+ ## BUDGET
+  ![budget](https://github.com/cepdnaclk/e16-3yp-smart-vending-machine/blob/main/docs/show4.png)
   
-  
-  
-  
-  
+    
  ## Advising Lecturers
 
  -  Dr Isuru Nawinna
