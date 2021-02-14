@@ -33,6 +33,8 @@
   Problems in having a traditional vending machine are - Having to pay for the products with cash most of the time.Easy to hack Traditional vending machine.Prices and Expiry dates are not checked by the Traditional vending machine.
 
 the solution to all the problem is a Smart vending machine which has the (Gender ,Age ,generation wise) analysis , 24 hours Distribution and vending services , Transaction Datbase services. Which can be used to check the performance of a product in a specific market.Prices and expiry dates are real time because it is connected to the cloud.
+ ![overview](https://github.com/cepdnaclk/e16-3yp-smart-vending-machine/blob/main/docs/show1.png)
+
   
  ## Technologies
   ### Cashless payments																
