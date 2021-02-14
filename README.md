@@ -11,6 +11,21 @@
    
    > [S Girishikan](https://github.com/girish4848)   :: E/16/115 :: e16115@eng.pdn.ac.lk
    
+   ## Table of contents
+
+1. >[Problem](https://github.com/cepdnaclk//e16-3yp-smart-vending-machine-system#problems)
+2. >[Our solution](https://github.com/cepdnaclk/e16-3yp-smart-payment-system#our-solution)
+3. >[Solution Architecture](https://github.com/cepdnaclk/e16-3yp-smart-payment-system#solution-architecture)
+4. >[Hardware & Software Designs](https://github.com/cepdnaclk/e16-3yp-smart-payment-systemr#hardware-and-software-designs)
+5. >[Testing](https://github.com/cepdnaclk/e16-3yp-smart-payment-system#testing)
+6. >[Detailed budget](https://github.com/cepdnaclk/e16-3yp-smart-payment-system#detailed-budget)
+7. >[Links](https://github.com/cepdnaclk/e16-3yp-smart-payment-system#Links)
+ 
+ ## PROBLEMS
+    Lack of 24 hrs Open Shops.
+    MRP products sold for higher prices.
+    Having a big space for a shop.
+
  ## OVERVIEW
   In Smart vending machine we are addresiing the problems faced by the companies and the Consumers in communication and 
   transaction. We hope to give a real time analysis of the market for each and every product available in the vending machine.
