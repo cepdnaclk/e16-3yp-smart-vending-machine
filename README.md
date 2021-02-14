@@ -13,13 +13,13 @@
    
    ## Table of contents
 
-1. >[Problem](https://github.com/cepdnaclk//e16-3yp-smart-vending-machine#problems)
-2. >[Our solution](https://github.com/cepdnaclk/e16-3yp-smart-payment-system#our-solution)
-3. >[Solution Architecture](https://github.com/cepdnaclk/e16-3yp-smart-payment-system#solution-architecture)
-4. >[Hardware & Software Designs](https://github.com/cepdnaclk/e16-3yp-smart-payment-systemr#hardware-and-software-designs)
-5. >[Testing](https://github.com/cepdnaclk/e16-3yp-smart-payment-system#testing)
-6. >[Detailed budget](https://github.com/cepdnaclk/e16-3yp-smart-payment-system#detailed-budget)
-7. >[Links](https://github.com/cepdnaclk/e16-3yp-smart-payment-system#Links)
+1. >[Problems](https://github.com/cepdnaclk//e16-3yp-smart-vending-machine#problems)
+2. >[Overview](https://github.com/cepdnaclk/e16-3yp-smart-vending-machine#overview)
+3. >[Solutions](https://github.com/cepdnaclk/e16-3yp-smart-vending-machine#solutions)
+4. >[Technologies](https://github.com/cepdnaclk/e16-3yp-smart-vending-machine#technologies)
+5. >[Testing](https://github.com/cepdnaclk/e16-3yp-smart-vending-machine#testing)
+6. >[Detailed budget](https://github.com/cepdnaclk/e16-3yp-smart-vending-machine#detailed-budget)
+7. >[Links](https://github.com/cepdnaclk/e16-3yp-smart-vending-machine#Links)
  
  ## PROBLEMS
    Lack of 24 hrs Open Shops.MRP products sold for higher prices.Having a big space for a shop.Having to pay for the products with cash most of the time.Easy to hack Traditional vending machine.Prices and Expiry dates are not checked by the  Traditional vending machine.
@@ -29,9 +29,10 @@
   In Smart vending machine we are addresiing the problems faced by the companies and the Consumers in communication and 
   transaction. We hope to give a real time analysis of the market for each and every product available in the vending machine.
   
- ## GOALS
-  * Making sure to record each and every transaction done by the machine in real time
-  * Giving a user friendly Experience to every Consumer possible
+ ## SOLUTIONS
+  Problems in having a traditional vending machine are - Having to pay for the products with cash most of the time.Easy to hack Traditional vending machine.Prices and Expiry dates are not checked by the Traditional vending machine.
+
+the solution to all the problem is a Smart vending machine which has the (Gender ,Age ,generation wise) analysis , 24 hours Distribution and vending services , Transaction Datbase services. Which can be used to check the performance of a product in a specific market.Prices and expiry dates are real time because it is connected to the cloud.
   
  ## Technologies
   ### Cashless payments																
