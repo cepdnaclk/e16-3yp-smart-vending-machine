@@ -2,6 +2,8 @@
 
 **Hello everyone!! Welcome to our project.**  
 
+ ![top](https://github.com/cepdnaclk/e16-3yp-smart-vending-machine/blob/main/docs/Milestone%203.png)
+
 [**Click here to check our website!!**](https://cepdnaclk.github.io/e16-3yp-smart-vending-machine/index.html)
 
 
