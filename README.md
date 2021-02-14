@@ -57,15 +57,18 @@ the solution to all the problem is a Smart vending machine which has the (Gender
  
   ### URL unit Testing
    * This test was done in order to check whether the end to end data transaction is happening or not.   
+   
    ![testing](https://github.com/cepdnaclk/e16-3yp-smart-vending-machine/blob/main/docs/test1.png)
   
   ### POST/GET Request unit Testing
    * This test to check the post and get requests
+   
    ![testing](https://github.com/cepdnaclk/e16-3yp-smart-vending-machine/blob/main/docs/test2.png)
    ![testing](https://github.com/cepdnaclk/e16-3yp-smart-vending-machine/blob/main/docs/test3.png)
   
   ### Form Validation Testing
    * This test to check the Forms
+   
    ![testing](https://github.com/cepdnaclk/e16-3yp-smart-vending-machine/blob/main/docs/test4.png)
    
  
