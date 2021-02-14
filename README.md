@@ -22,9 +22,8 @@
 7. >[Links](https://github.com/cepdnaclk/e16-3yp-smart-payment-system#Links)
  
  ## PROBLEMS
-    Lack of 24 hrs Open Shops.
-    MRP products sold for higher prices.
-    Having a big space for a shop.
+   Lack of 24 hrs Open Shops.MRP products sold for higher prices.Having a big space for a shop.Having to pay for the products with cash most of the time.Easy to hack Traditional vending machine.Prices and Expiry dates are not checked by the  Traditional vending machine.
+
 
  ## OVERVIEW
   In Smart vending machine we are addresiing the problems faced by the companies and the Consumers in communication and 
