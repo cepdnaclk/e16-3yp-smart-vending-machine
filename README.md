@@ -13,7 +13,7 @@
    
    ## Table of contents
 
-1. >[Problem](https://github.com/cepdnaclk//e16-3yp-smart-vending-machine-system#problems)
+1. >[Problem](https://github.com/cepdnaclk//e16-3yp-smart-vending-machine#problems)
 2. >[Our solution](https://github.com/cepdnaclk/e16-3yp-smart-payment-system#our-solution)
 3. >[Solution Architecture](https://github.com/cepdnaclk/e16-3yp-smart-payment-system#solution-architecture)
 4. >[Hardware & Software Designs](https://github.com/cepdnaclk/e16-3yp-smart-payment-systemr#hardware-and-software-designs)
