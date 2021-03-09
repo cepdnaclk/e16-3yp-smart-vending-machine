@@ -1,0 +1,27 @@
+{% extends 'store/Main.html' %}
+{% load static %}
+{% block content %}
+	<div class="row">
+		{% for product in products %}
+		<div class="col-lg-4">
+			<img class="thumbnail" src="{{product.imageURL}}">
+			<div class="box-element product">
+				<h6><strong>{{product.name}}</strong></h6>
+				<hr>
+
+				<button data-product="{{product.id}}" data-action="add" class="btn btn-outline-secondary add-btn update-cart">Add to Cart</button>
+				<a class="btn btn-outline-success" href="{% url 'cart' %}">Buy</a>
+				<h4 style="display: inline-block; float: right"><strong>${{product.price}}</strong></h4>
+
+			</div>
+		</div>
+		{% endfor %}
+	</div>
+	<br>
+	{% if products.has_previous %}
+	<a class="btn btn-sm btn-info" href="{% url 'store' %}?page={{products.previous_page_number}}"> previous</a>
+	{% endif %}
+	{% if products.has_next %}
+	<a class="btn btn-sm btn-info" href="{% url 'store' %}?page={{products.next_page_number}}"> Next</a>
+	{% endif %}
+{% endblock content %}

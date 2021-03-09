@@ -1,9 +1,0 @@
-server {
-    listen 80;
-    server_name ec2-3-86-242-93.compute-1.amazonaws.com/;
-
-    location / {
-        include proxy_params;
-        proxy_pass http://unix:/home/ubuntu/django/app.sock;
-     
-}
