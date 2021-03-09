@@ -38,8 +38,10 @@ body {font-size:16px;}
     <a href="#Architecture" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Architecture</a> 
     <a href="#Conclusion" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">User Interface</a> 
     <a href="#Hardware" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Hardware Components</a> 
+    <a href="#Hardware1" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Hardware Design</a> 
+    <a href="#Tests" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Software Testing</a>
     <a href="#datapath" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Datapath</a> 
-    <a href="#Tests" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Tests</a> 
+    <a href="#Tests" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Software Testing</a> 
     
     <a href="#designers" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Designers</a> 
     <a href="#budget" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Budget</a> 
@@ -103,7 +105,15 @@ body {font-size:16px;}
   <div class="w3-container" id="Architecture" style="margin-top:75px">
     <h1 class="w3-xxxlarge w3-text-red"><b>Software Architecture.</b></h1>
     <hr style="width:50px;border:5px solid red" class="w3-round">
-    <img src="show2.png" style="width:100%" onclick="onClick(this)" alt="Concrete meets bricks"> 
+    <img src="show2.png" style="width:500px;border:500px" onclick="onClick(this)" alt="Concrete meets bricks"> 
+    <p> The software architecture works like the above mentioned picture First user accesses
+       the web application and he chooses the products and the interface was made by the Python Django
+      and the details are updated in to the database which is made by MongoDB And it is al so in the 
+    server which is The Amazon EC3 instance All the communications are done through https.
+  There is an API in the machine which connects the sever to get the Validation requests.Finally the Machine dispences
+the item chose by the user</p>
+
+
     <h3 class="w3-xlarge w3-text-red"><b>   Back End Tasks Done</b></h3>
    <p>  User Registration (User /Admin/Companies)</p>
    <p>  Payment Handling</p>
@@ -137,16 +147,32 @@ body {font-size:16px;}
     <hr style="width:50px;border:5px solid red" class="w3-round">
 
     <img src="ui1.jpeg" style="width:500px;border:500px" onclick="onClick(this)" alt=""> 
+    <p>  The Home page has all the items which can be bought</p>
     <img src="ui2.jpeg" style="width:500px;border:500px" onclick="onClick(this)" alt=""> 
+    <p>  Sign in Page which the user uses to have an account. Or the Admin can access 
+      the admin page through this</p>
     <img src="signup.jpeg" style="width:500px;border:500px" onclick="onClick(this)" alt="">
+    <p>  This is where the user goes when he wants to sign up and create a new account
+    </p>
     <img src="ui3.jpeg" style="width:500px;border:500px" onclick="onClick(this)" alt="">
+    <p> Once signed in the page changes to this </p>
     <img src="cartview.jpeg" style="width:500px;border:500px" onclick="onClick(this)" alt="">
+    <p>  The cart whcih has the products looks like this from here you can go to checkout</p>
     <img src="payment.jpeg" style="width:500px;border:500px" onclick="onClick(this)" alt="">
-    <img src="payways.jpeg" style="width:500px;border:500px" onclick="onClick(this)" alt=" ">  
+    <p>  The check out page looks like this From here you have to give Your name and your email address to get the receipt</p>
+
+    <img src="payways.jpeg" style="width:500px;border:500px" onclick="onClick(this)" alt=" ">
+    <p>  There are 2 options how you can pay with one is through paypal and the other one is using 
+      bank cards(debit/credit)
+    </p>  
     <img src="paypal.jpeg" style="width:500px;border:500px" onclick="onClick(this)" alt=" "> 
+    <p>  pop up will redirect you to Paypal</p>
     <img src="admindata.jpeg" style="width:500px;border:500px" onclick="onClick(this)" alt=""> 
+    <p>  Admin view of the order that has been done in the vending machne</p>
     <img src="productadd.jpeg" style="width:500px;border:500px" onclick="onClick(this)" alt=" "> 
+    <p>  How admin changes and adds new items to the vending machine</p>
     <img src="OrderQR.jpeg" style="width:500px;border:500px" onclick="onClick(this)" alt="">
+    <p>  admin can view all the QR code generated in this page</p>
 
 
 
@@ -165,45 +191,77 @@ body {font-size:16px;}
       <p> Relay Module</p>
       <p> Weight Sensor</p>
       <p>  PIR sensor</p>
-      <img src="show3.png" style="width:100%" onclick="onClick(this)" alt=""> 
+      <img src="show3.png" style="width:500px;border:500px" onclick="onClick(this)" alt=""> 
+    <p><b>This is the physical interpretation of the circuit diagram Which shows how the components are connected</b></p>
 
   </div>
+<!-- Hard Ware-->
+  <div class="w3-container" id="Hardware1" style="margin-top:75px">
+    <h1 class="w3-xxxlarge w3-text-red"><b>Hardware Design</b></h1>
+    <hr style="width:50px;border:5px solid red" class="w3-round">
 
-<!-- Hardware -->
+    <img src="hardware.png" style="width:500px;border:500px" onclick="onClick(this)" alt=""> 
+    <img src="machine.png" style="width:500px;border:500px" onclick="onClick(this)" alt=""> 
+    <p>For the Convenience of the user the design was made to demonstrate which has all the attributes and more of a vending machine
+      In the picture you can see a screen which is used to communicate with the user and there is a proximity sensor to make sure the vending machine only works when 
+      someone is present
+    </p>
+    <h3 class="w3-xlarge w3-text-red"><b> PCB Design </b></h3>
+    <img src="pcb.jpeg" style="width:500px;border:500px" onclick="onClick(this)" alt=""> 
+
+  </div>
+<!-- Hard Ware Design-->
+<!--  <div class="w3-container" id="Hardware1" style="margin-top:75px">
+    <h1 class="w3-xxxlarge w3-text-red"><b>Hardware Testing</b></h1>
+    <hr style="width:50px;border:5px solid red" class="w3-round">
+</div>-->
+
+<!-- Data path -->
   <div class="w3-container" id="datapath" style="margin-top:75px">
     <h1 class="w3-xxxlarge w3-text-red"><b>Data Path.</b></h1>
     <hr style="width:50px;border:5px solid red" class="w3-round">
     <img src="show8.png" style="width:50%" onclick="onClick(this)" alt=""> 
+    <p><b>The flow of data is projected above normally a user signs in or signs up with the user app
+      after that user app sends the server data through HTTPs  requests and also the response from the server also
+      is through HTTPs responses similarly the API in the vending machine also sends the request as HTTPs and the response is through
+      HTTPs.
+    </b></p>
     <h3 class="w3-xxlarge w3-text-red"><b> ER Diagram </b></h3>
-    <img src="show9.png" style="width:80%" onclick="onClick(this)" alt=""> 
+    <img src="show9.jpeg" style="width:80%" onclick="onClick(this)" alt=""> 
+    <p><b>The Main entities are User,Customer , Product, Order, Order Item And QR Code.Every Entity has unique
+      primary Key. And if we go in to details Customer Makes an order or multiple orders so the relationship between 
+      Customer and the Order is one to many.Customer can get multiple QR codes so there will be a one to many relationship.likewise one order can have multiple 
+      order items that is also a one to many relationship.For Order to QR Address the relationship is 1 to 1.
+      For products and Order Item its 1 to many.
+    </b></p>
 
 
     <!-- Tests -->
   <div class="w3-container" id="Tests" style="margin-top:75px">
-    <h1 class="w3-xxxlarge w3-text-red"><b>Tests.</b></h1>
+    <h1 class="w3-xxxlarge w3-text-red"><b>Software Testing.</b></h1>
     <hr style="width:50px;border:5px solid red" class="w3-round">
     
     <h3 class="w3-xlarge w3-text-red"><b> URL unit Testing</b></h3>
    <p> We are checking to make sure every Url gets the reverse Match </p>
    <p></p>
-   <img src="test1.png" style="width:800px;border:800px" onclick="onClick(this)" alt="Codes for the Test "> 
+   <img src="test1.png" style="width:500px;border:800px" onclick="onClick(this)" alt="Codes for the Test "> 
 
    <h3 class="w3-xlarge w3-text-red"><b> POST/GET  Request unit Testing</b></h3>
    <p>  CRUD operations are Checked </p>
    <p> We are sending in dummy data to check the reliability of the authendication </p>
-   <img src="test2.png" style="width:800px;border:800px" onclick="onClick(this)" alt="Codes for the Test "> 
-   <img src="test3.png" style="width:800px;border:800px" onclick="onClick(this)" alt="Codes for the Test "> 
+   <img src="test2.png" style="width:500px;border:800px" onclick="onClick(this)" alt="Codes for the Test "> 
+   <img src="test3.png" style="width:500px;border:800px" onclick="onClick(this)" alt="Codes for the Test "> 
 
    <h3 class="w3-xlarge w3-text-red"><b> Form Validation Testing</b></h3>
    <p>  Authetication form is  checked </p>
    <p>We are creating a new user and database and checking the form</p>
    <p>Post request is sent and check if it is updated</p>
     <p>new products are created in example to check where all of them are being updated</p>
-   <img src="test4.png" style="width:800px;border:800px" onclick="onClick(this)" alt="Codes for the Test "> 
+   <img src="test4.png" style="width:500px;border:800px" onclick="onClick(this)" alt="Codes for the Test "> 
 
    <h3 class="w3-xlarge w3-text-red"><b> Testing Results</b></h3>
-   <img src="result1.png" style="width:800px;border:800px" onclick="onClick(this)" alt="results "> 
-   <img src="result2.png" style="width:800px;border:800px" onclick="onClick(this)" alt="results "> 
+   <img src="result1.png" style="width:500px;border:800px" onclick="onClick(this)" alt="results "> 
+   <img src="result2.png" style="width:500px;border:800px" onclick="onClick(this)" alt="results "> 
 
 
   
