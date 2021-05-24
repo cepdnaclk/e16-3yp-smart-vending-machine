@@ -78,10 +78,10 @@ body {font-size:16px;}
     </div>
       
        
-    <p> Problems in having a traditional vending machine are - Having to pay for the products with cash most of the time.Easy to hack Traditional vending machine.Prices and Expiry dates are not checked by the  Traditional vending machine.
-<p> the solution to all the problem is a Smart vending machine which has the (Gender ,Age ,generation wise) analysis , 24 hours Distribution and vending services , Transaction Database services.
-      Which can be used to check the performance of a product in a specific market.Prices and expiry dates are real time because it is connected to the cloud.</p>
-    </p>
+    <h4> Problems in having a traditional vending machine are - Having to pay for the products with cash most of the time.Easy to hack Traditional vending machine.Prices and Expiry dates are not checked by the  Traditional vending machine.</h4>
+<h4> the solution to all the problem is a Smart vending machine which has the (Gender ,Age ,generation wise) analysis , 24 hours Distribution and vending services , Transaction Database services.
+      Which can be used to check the performance of a product in a specific market.Prices and expiry dates are real time because it is connected to the cloud.
+</h4>
   </div>
       
       
@@ -107,32 +107,44 @@ body {font-size:16px;}
     <h1 class="w3-xxxlarge w3-text-red"><b>Software Architecture.</b></h1>
     <hr style="width:50px;border:5px solid red" class="w3-round">
     <img src="show2.png" style="width:500px;border:500px" onclick="onClick(this)" alt="Concrete meets bricks"> 
-    <p> The software architecture works like the above mentioned picture First user accesses
+    <h4> The software architecture works like the above mentioned picture First user accesses
        the web application and he chooses the products and the interface was made by the Python Django
       and the details are updated in to the database which is made by MongoDB And it is al so in the 
     server which is The Amazon EC3 instance All the communications are done through https.
   There is an API in the machine which connects the sever to get the Validation requests.Finally the Machine dispences
-the item chose by the user</p>
+the item chose by the user</h4>
 
 
     <h3 class="w3-xlarge w3-text-red"><b>   Back End Tasks Done</b></h3>
-   <p>  User Registration (User /Admin/Companies)</p>
-   <p>  Payment Handling</p>
-   <p>  Add /Modify/Delete Items</p>
-   <p>  Validation</p>
-   <p>  Transactions</p>
+   <h4> <b> User Registration (User /Admin/Companies)</b></h4>
+   <p>  Where user is clasified into who they are according to their Credidential. These Roles can determine the 
+     access given to a selected user.
+   </p>
+   <h4> <b> Payment Handling</b></h4>
+   <p>  Payment Handling is done through PayPal Which is a secured Payment Gateway</p>
+   <h4> <b> Add /Modify/Delete Items</b></h4>
+   <p>  The admin can Edit any information about the items available</p>
+   <h4>  <b>Validation</b></h4>
+   <p>  QR code is used for more security and also Django Rest API is used for validity </p>
+   <h4> <b> Transactions</b></h4>
+   <p> Every Transaction Done can be Seen by an admin .The User can also see the previous Transactions done by him.</p>
 
    <h3 class="w3-xlarge w3-text-red"><b>Server</b></h3>
    <p>  Local server is made using <b>Python Django</b>  </p>
-   <p> The database is made in <b>mongoDB</b>  </p>
+   <p> The database is made in <b>PostGreSQL</b>  </p>
    <p>  Communication to AWS is done through HTTPS </p>
    <img src="show5.png" style="width:300px;border:300px" onclick="onClick(this)" alt="Django"> 
-   <img src="show6.png" style="width:300px;border:300px" onclick="onClick(this)" alt="mongoDB"> 
+   <img src="show6.png" style="width:300px;border:300px" onclick="onClick(this)" alt="PostgralSQl"> 
 
    <h3 class="w3-xlarge w3-text-red"><b>Cloud Server</b></h3>
-   <p> Host in amazon EC2 computer </p>
+   <p> Host in amazon EC2 Instance  </p>
+   <p> Nginix Server is used because Nginx is built to offer low memory usage and high concurrency. 
+     Rather than creating new processes for each web request, Nginx uses an asynchronous, event-driven 
+     approach where requests are handled in a single thread. With Nginx, one master process can control multiple worker processes.  </p>
+     <p>  Gunicorn is used and it internally hands the calling of our flask code. This is done by having workers ready to handle the requests instead of the sequential one-at-a-time model that the default flask server provides. 
+       The end result is our app can handle more requests per second</p>
    <p>  Built with Python Django </p>
-   <p>  Used database Mongo DB
+   <p>  Used database PostGreSQL
       </p>
    
    <img src="show7.png" style="width:300px;border:300px" onclick="onClick(this)" alt="AWS"> 
@@ -148,32 +160,41 @@ the item chose by the user</p>
     <hr style="width:50px;border:5px solid red" class="w3-round">
 
     <img src="ui1.jpeg" style="width:500px;border:500px" onclick="onClick(this)" alt=""> 
-    <p>  The Home page has all the items which can be bought</p>
+    <h3> The Website gets you to this Home page which Can be used to directly buy items or you can sign in and buy things If you sign in the company can give you discounts or other options.And also from the Homepage you can go to the cart which has the items you selected and the total amount.Other than that you can also go to the tab pending orders and use the QR codes to get the paid items to dispense.
+    </h3>
     <img src="ui2.jpeg" style="width:500px;border:500px" onclick="onClick(this)" alt=""> 
-    <p>  Sign in Page which the user uses to have an account. Or the Admin can access 
-      the admin page through this</p>
+    <h3>  This Page is the page you get if you want to Login.You can type in your login credentials and get into the account where you can see your previous orders and etcs. Or If you don't have an account you can go to the Signup option and Sign up for a new account.There is an option to help you reset your password as well if you forget.
+    </h3>
     <img src="signup.jpeg" style="width:500px;border:500px" onclick="onClick(this)" alt="">
-    <p>  This is where the user goes when he wants to sign up and create a new account
-    </p>
+    <h3>  This is the SignUp page where you can Sign up for a new Account.The creditentials can be created here and there is a email checker and the email should be legitimate to sign in 
+
+    </h3>
     <img src="ui3.jpeg" style="width:500px;border:500px" onclick="onClick(this)" alt="">
-    <p> Once signed in the page changes to this </p>
+    <h3> After Signing in you will have a page similar to the home page but you can see your account and you can make changes to your account when you click on your profile picture.And also you will have an Profile Button on your webpage where you can go and change your account settings.
+    </h3>
     <img src="cartview.jpeg" style="width:500px;border:500px" onclick="onClick(this)" alt="">
-    <p>  The cart whcih has the products looks like this from here you can go to checkout</p>
+    <h3>  After you added the items your Cart the cart looks like this and you can edit the items that you are going to add here also.If you click check out it will take to a page where your can pay for the Items.You can use continue shopping to go back and add more items to the cart.
+    </h3>
     <img src="payment.jpeg" style="width:500px;border:500px" onclick="onClick(this)" alt="">
-    <p>  The check out page looks like this From here you have to give Your name and your email address to get the receipt</p>
+    <h3>  When you go to the checkout page you can see that it will ask for a name and an email. It is just for the invoice so you can use it for refunds and other proceeds.
+    </h3>
 
     <img src="payways.jpeg" style="width:500px;border:500px" onclick="onClick(this)" alt=" ">
-    <p>  There are 2 options how you can pay with one is through paypal and the other one is using 
-      bank cards(debit/credit)
-    </p>  
+    <h3>  After giving the Email and the name You can choose the way to pay (Paypal / Debit Card /Credit card).After choosing the payment method you will be redirected to a dialog box which is going popup and you can give your details there and pay for the items and you will receive the items.
+    </h3>  
     <img src="paypal.jpeg" style="width:500px;border:500px" onclick="onClick(this)" alt=" "> 
-    <p>  pop up will redirect you to Paypal</p>
+    <h3>  pop up will redirect you to Paypal</h3>
     <img src="admindata.jpeg" style="width:500px;border:500px" onclick="onClick(this)" alt=""> 
-    <p>  Admin view of the order that has been done in the vending machne</p>
+    <h3> If you Login with the admin Credentials you can see all the transactions that have happened with the vending machine over the  time. And you can check who has bought the items and their characteristics according to their accounts.And also you can check the pending transactions.
+
+    </h3>
     <img src="productadd.jpeg" style="width:500px;border:500px" onclick="onClick(this)" alt=" "> 
-    <p>  How admin changes and adds new items to the vending machine</p>
+    <h3> If you Login as an Admin You can also change the number of products in the vending machine.If you see any miscalculations. And also you can search for items according to their places and the prices and also the names.
+
+    </h3>
     <img src="OrderQR.jpeg" style="width:500px;border:500px" onclick="onClick(this)" alt="">
-    <p>  admin can view all the QR code generated in this page</p>
+    <h3>  The other page you can check are the QR codes of the customers who are going to buy the items.
+    </h3>
 
 
 
@@ -185,14 +206,75 @@ the item chose by the user</p>
     <h1 class="w3-xxxlarge w3-text-red"><b>Hardware Components</b></h1>
     <hr style="width:50px;border:5px solid red" class="w3-round">
     
-    <p>Raspberry Pi 3 </p>
-      <p>Stepper Motor</p>
-      <p> Stepper motor driver</p>
-      <p> Camera Module V2 for Raspberry Pi</p>
-      <p> Relay Module</p>
-      <p> Weight Sensor</p>
-      <p>  PIR sensor</p>
-      <img src="show3.png" style="width:500px;border:500px" onclick="onClick(this)" alt=""> 
+    <h2><b>Raspberry Pi 3 </b></h2>
+   <p> Broadcom BCM2837 64bit ARMv7 Quad Core Processor powered Single Board Computer running at 1.2GHz 
+1GB RAM </p>
+<p>BCM43143 WiFi on board Bluetooth Low Energy (BLE) on board</p>
+<p>40pin extended GPIO , 4 x USB 2 ports 4 pole </p>
+<p>Stereo output and Composite video port Full size HDMI </p>
+<p>CSI camera port for connecting the Raspberry Pi camera </p>
+<p>Upgraded switched Micro USB power source (now supports up to 2.4 Amps) Expected to have the same form factor has the Pi 2 Model B, however the LEDs will change position</p>
+
+
+      <h2><b>Stepper Motor</b></h2>
+    <P>  Motor Type: Bipolar Stepper</P>
+    <P>Step Angle: 1.8 deg.</P>
+    <P>Holding Torque: 40N.cm (56oz.in)</P>
+    <P>Rated Current/phase: 1.7A</P>
+    <P>Phase Resistance: 1.5Ohm±10%</P>
+    <P>Insulation Resistance: 100MΩ¸ Min, 500VDC</P>
+    <P>Insulation Strength: 500VAC for one minute</P>
+
+      <h2><b> Stepper motor driver</b></h2>
+      <p>stepper motor provides a constant holding torque without the need for the motor to be powered.Steppers provide precise positioning and repeatability of movement since good stepper motors have an accuracy of 3 – 5% of a step and this error is non-cumulative from one step to the next.
+      </p>
+      <p> Driver Model: L298N 2A</p>
+        <p>Driver Chip: Double H Bridge L298N</p>
+          <p>Motor Supply Voltage (Maximum): 46V</p>
+            <p>Motor Supply Current (Maximum): 2A</p>
+              <p>Logic Voltage: 5V</p>
+                <p>Driver Voltage: 5-35V</p>
+                  <p>Driver Current:2A</p>
+                    <p>Logical Current:0-36mA</p>
+                      <p>Maximum Power (W): 25W</p>
+                        <p>Current Sense for each motor</p>
+                          <p>Heatsink for better performance</p>
+
+      <h2> <b>Camera Module V2 for Raspberry Pi</b></h2>
+      <P>5 megapixel native resolution sensor-capable of 2592 x 1944 pixel static images.</P>
+      <P> Supports 1080p30, 720p60 and 640x480p60/90 video.</P>
+      <P> Camera is supported in the latest version of Raspbian, Raspberry Pi's preferred operating system.
+        </P>
+      <h2> <b>Relay Module</b></h2>
+      <p> High-sensitivity (250 mW) and High-capacity (16 A) versions </p>
+        <p> Rated voltage 12 V DC </p>
+          <p>Rated current  20.8 mA </p>
+            <p>Coil resistance   576 Ω </p>
+              <p>Must operate voltage 75% max. of the rated voltage </p>
+                <p>Must release voltage  10% min. of the rated voltage </p>
+                  <p>Max. voltage  180% of rated voltage (at 23°C) </p>
+                    <p>Power consumption  Approx. 250 mW
+        </p>
+      <h2> <b>Weight Sensor</b></h2>
+      <p>Differential input voltage: ±40mV (Full-scale differential input voltage is ± 40mV)</p>
+        <p> Data accuracy: 24 bit (24 bit A / D converter chip.)</p>
+          <p> Refresh frequency: 10/80 Hz.</p>
+            <p> Operating Voltage: 2.7V to 5V DC.</p>
+              <p> Operating current: < 10 mA.</p>
+                <p>Size: 24x16mm. 
+        </p>
+      <h2>  <b>PIR sensor</b></h2>
+      <p>Input voltage: DC 4.5~20V</p>
+        <p> Static current: 50uA</p>
+        <p>Output signal: 0,3V (Output high when
+          motion detected)</p>
+            <p>Sentry angle: 110 degree</p>
+              <p>Sentry distance: max 7 m</p>
+                <p>120 degree detection angle</p>
+                  <p>Low power consumption in idle mode only 50uA 
+               and 65mA in fully active mode.
+        </p>
+      <img src="show3.png" style="width:1000px;border:1000px" onclick="onClick(this)" alt=""> 
     <p><b>This is the physical interpretation of the circuit diagram Which shows how the components are connected</b></p>
 
   </div>
@@ -204,10 +286,10 @@ the item chose by the user</p>
     <img src="hardware.png" style="width:500px;border:500px" onclick="onClick(this)" alt=""> 
       
     <img src="machine.png" style="width:500px;border:500px" onclick="onClick(this)" alt=""> 
-    <p>For the Convenience of the user the design was made to demonstrate which has all the attributes and more of a vending machine
+    <h3>For the Convenience of the user the design was made to demonstrate which has all the attributes and more of a vending machine
       In the picture you can see a screen which is used to communicate with the user and there is a proximity sensor to make sure the vending machine only works when 
       someone is present
-    </p>
+    </h3>
     <h3 class="w3-xlarge w3-text-red"><b> PCB Design </b></h3>
     <img src="pcb.jpeg" style="width:500px;border:500px" onclick="onClick(this)" alt=""> 
 
@@ -223,12 +305,13 @@ the item chose by the user</p>
     <h1 class="w3-xxxlarge w3-text-red"><b>Data Path.</b></h1>
     <hr style="width:50px;border:5px solid red" class="w3-round">
     <img src="show8.png" style="width:50%" onclick="onClick(this)" alt=""> 
-    <p><b>The flow of data is projected above normally a user signs in or signs up with the user app
+    <h3><b>The flow of data is projected above normally a user signs in or signs up with the user app
       after that user app sends the server data through HTTPs  requests and also the response from the server also
       is through HTTPs responses similarly the API in the vending machine also sends the request as HTTPs and the response is through
       HTTPs.
-    </b></p>
-    <h3 class="w3-xxlarge w3-text-red"><b> ER Diagram </b></h3>
+    </b></h3>
+    <h2 class="w3-xxlarge w3-text-red"><b> ER Diagram </b></h2>
+    <hr style="width:50px;border:5px solid red" class="w3-round">
       
     <img src="show9.jpeg" style="width:80%" onclick="onClick(this)" alt=""> 
       
