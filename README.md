@@ -44,7 +44,7 @@
 the solution to all the problem is a Smart vending machine which has the (Gender ,Age ,generation wise) analysis , 24 hours Distribution and vending services , Transaction Datbase services. Which can be used to check the performance of a product in a specific market.Prices and expiry dates are real time because it is connected to the cloud.
  ![overview](https://github.com/cepdnaclk/e16-3yp-smart-vending-machine/blob/main/docs/show1.png)
 
-## SOLUTIONS
+## ARCHITECTURE
 The software architecture works like the above mentioned picture First user accesses the web application and he chooses the products and the interface was made by the Python Django and the details are updated in to the database which is made by MongoDB And it is al so in the server which is The Amazon EC3 instance All the communications are done through https. There is an API in the machine which connects the sever to get the Validation requests.Finally the Machine dispences the item chose by the user
   
  ## TECHNOLOGIES
