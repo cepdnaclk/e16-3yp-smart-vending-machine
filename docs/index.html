@@ -42,7 +42,7 @@ body {font-size:16px;}
     <a href="#Hardware1" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Hardware Design</a> 
     <a href="#Tests" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Software Testing</a>
     <a href="#datapath" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Datapath</a> 
-    <a href="#Tests" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Software Testing</a> 
+    
     
     <a href="#designers" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Designers</a> 
     <a href="#budget" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Budget</a> 
@@ -329,12 +329,12 @@ the item chose by the user</h4>
     <hr style="width:50px;border:5px solid red" class="w3-round">
     
     <h3 class="w3-xlarge w3-text-red"><b> URL unit Testing</b></h3>
-   <p> We are checking to make sure every Url gets the reverse Match </p>
+   <p> We are checking to make sure every Url gets the reverse Match.By using the dummy http request </p>
    <p></p>
    <img src="test1.png" style="width:500px;border:800px" onclick="onClick(this)" alt="Codes for the Test "> 
 
    <h3 class="w3-xlarge w3-text-red"><b> POST/GET  Request unit Testing</b></h3>
-   <p>  CRUD operations are Checked </p>
+   <p>  CRUD operations are Checked using artifical AJAX API calls for that we are using Hard coded Json data</p>
    <p> We are sending in dummy data to check the reliability of the authendication </p>
    <img src="test2.png" style="width:500px;border:800px" onclick="onClick(this)" alt="Codes for the Test "> 
    <img src="test3.png" style="width:500px;border:800px" onclick="onClick(this)" alt="Codes for the Test "> 
@@ -349,7 +349,9 @@ the item chose by the user</h4>
    <h3 class="w3-xlarge w3-text-red"><b> Testing Results</b></h3>
    <img src="result1.png" style="width:500px;border:800px" onclick="onClick(this)" alt="results "> 
    <img src="result2.png" style="width:500px;border:800px" onclick="onClick(this)" alt="results "> 
-
+  <h4> 22 checks were done for end point reverse matches all were passed.We failed to check the QR code at the first time but after some minor changes QR code got accepted by the test
+    and also 15 tests were done one of them were checking QR codes
+  </h4>
 
   
 
