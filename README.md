@@ -63,6 +63,12 @@ the solution to all the problem is a Smart vending machine which has the (Gender
 ## INTERFACE
   ![interface](https://github.com/cepdnaclk/e16-3yp-smart-vending-machine/blob/main/docs/ui1.jpeg)
   The Website gets you to this Home page which Can be used to directly buy items or you can sign in and buy things If you sign in the company can give you discounts or other options.And also from the Homepage you can go to the cart which has the items you selected and the total amount.Other than that you can also go to the tab pending orders and use the QR codes to get the paid items to dispense. 
+
+  ![interface](https://github.com/cepdnaclk/e16-3yp-smart-vending-machine/blob/main/docs/ui2.jpeg)
+  This Page is the page you get if you want to Login.You can type in your login credentials and get into the account where you can see your previous orders and etcs. Or If you don't have an account you can go to the Signup option and Sign up for a new account.There is an option to help you reset your password as well if you forget. 
+
+  ![interface](https://github.com/cepdnaclk/e16-3yp-smart-vending-machine/blob/main/docs/signup.jpeg)
+  This is the SignUp page where you can Sign up for a new Account.The creditentials can be created here and there is a email checker and the email should be legitimate to sign in 
   
  ## TESTING
  
