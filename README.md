@@ -102,8 +102,97 @@ the solution to all the problem is a Smart vending machine which has the (Gender
 * CSI camera port for connecting the Raspberry Pi camera
 
 * Upgraded switched Micro USB power source (now supports up to 2.4 Amps) Expected to have the same form factor has the Pi 2 Model B, however the LEDs will change position
-  
-   
+
+### Stepper Motor
+* Motor Type: Bipolar Stepper
+
+* Step Angle: 1.8 deg.
+
+* Holding Torque: 40N.cm (56oz.in)
+
+* Rated Current/phase: 1.7A
+
+* Phase Resistance: 1.5Ohm±10%
+
+* Insulation Resistance: 100MΩ¸ Min, 500VDC
+
+* Insulation Strength: 500VAC for one minute  
+
+### Stepper motor driver
+stepper motor provides a constant holding torque without the need for the motor to be powered.Steppers provide precise positioning and repeatability of movement since good stepper motors have an accuracy of 3 – 5% of a step and this error is non-cumulative from one step to the next.
+
+* Driver Model: L298N 2A
+
+* Driver Chip: Double H Bridge L298N
+
+* Motor Supply Voltage (Maximum): 46V
+
+* Motor Supply Current (Maximum): 2A
+
+* Logic Voltage: 5V
+
+* Driver Voltage: 5-35V
+
+* Driver Current:2A
+
+* Logical Current:0-36mA
+
+* Maximum Power (W): 25W
+
+* Current Sense for each motor
+
+* Heatsink for better performance
+
+### Camera Module V2 for Raspberry Pi
+* 5 megapixel native resolution sensor-capable of 2592 x 1944 pixel static images.
+
+* Supports 1080p30, 720p60 and 640x480p60/90 video.
+
+* Camera is supported in the latest version of Raspbian, Raspberry Pi's preferred operating system.
+
+### Relay Module
+* High-sensitivity (250 mW) and High-capacity (16 A) versions
+
+* Rated voltage 12 V DC
+
+* Rated current 20.8 mA
+
+* Coil resistance 576 Ω
+
+* Must operate voltage 75% max. of the rated voltage
+
+* Must release voltage 10% min. of the rated voltage
+
+* Max. voltage 180% of rated voltage (at 23°C)
+
+* Power consumption Approx. 250 mW
+
+### Weight Sensor
+* Differential input voltage: ±40mV (Full-scale differential input voltage is ± 40mV)
+
+* Data accuracy: 24 bit (24 bit A / D converter chip.)
+
+* Refresh frequency: 10/80 Hz.
+
+* Operating Voltage: 2.7V to 5V DC.
+
+* Operating current: < 10 mA.
+
+* Size: 24x16mm.
+### PIR sensor
+* Input voltage: DC 4.5~20V
+
+* Static current: 50uA
+
+* Output signal: 0,3V (Output high when motion detected)
+
+* Sentry angle: 110 degree
+
+* Sentry distance: max 7 m
+
+* 120 degree detection angle
+
+* Low power consumption in idle mode only 50uA and 65mA in fully active mode. 
  ## TESTING
  
   ### URL unit Testing
