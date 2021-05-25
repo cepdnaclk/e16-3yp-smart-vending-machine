@@ -20,11 +20,10 @@
 1. >[Problems](https://github.com/cepdnaclk//e16-3yp-smart-vending-machine#problems)
 2. >[Overview](https://github.com/cepdnaclk/e16-3yp-smart-vending-machine#overview)
 3. >[Solutions](https://github.com/cepdnaclk/e16-3yp-smart-vending-machine#solutions)
-4. >[Solutions](https://github.com/cepdnaclk/e16-3yp-smart-vending-machine#solutions)
-5. >[Technologies](https://github.com/cepdnaclk/e16-3yp-smart-vending-machine#technologies)
-6. >[Testing](https://github.com/cepdnaclk/e16-3yp-smart-vending-machine#testing)
-7. >[Detailed budget](https://github.com/cepdnaclk/e16-3yp-smart-vending-machine#budget)
-8. >[Links](https://github.com/cepdnaclk/e16-3yp-smart-vending-machine#Links)
+4. >[Technologies](https://github.com/cepdnaclk/e16-3yp-smart-vending-machine#technologies)
+5. >[Testing](https://github.com/cepdnaclk/e16-3yp-smart-vending-machine#testing)
+6. >[Detailed budget](https://github.com/cepdnaclk/e16-3yp-smart-vending-machine#budget)
+7. >[Links](https://github.com/cepdnaclk/e16-3yp-smart-vending-machine#Links)
 
  
  ## PROBLEMS
@@ -36,6 +35,9 @@
   In Smart vending machine we are addresiing the problems faced by the companies and the Consumers in communication and 
   transaction. We hope to give a real time analysis of the market for each and every product available in the vending machine.
   ![overview](https://github.com/cepdnaclk/e16-3yp-smart-vending-machine/blob/main/docs/show2.png)
+
+
+  The software architecture works like the above mentioned picture First user accesses the web application and he chooses the products and the interface was made by the Python Django and the details are updated in to the database which is made by MongoDB And it is al so in the server which is The Amazon EC3 instance All the communications are done through https. There is an API in the machine which connects the sever to get the Validation requests.Finally the Machine dispences the item chose by the user
   
   
  ## SOLUTIONS
@@ -44,8 +46,6 @@
 the solution to all the problem is a Smart vending machine which has the (Gender ,Age ,generation wise) analysis , 24 hours Distribution and vending services , Transaction Datbase services. Which can be used to check the performance of a product in a specific market.Prices and expiry dates are real time because it is connected to the cloud.
  ![overview](https://github.com/cepdnaclk/e16-3yp-smart-vending-machine/blob/main/docs/show1.png)
 
-## ARCHITECTURE
-The software architecture works like the above mentioned picture First user accesses the web application and he chooses the products and the interface was made by the Python Django and the details are updated in to the database which is made by MongoDB And it is al so in the server which is The Amazon EC3 instance All the communications are done through https. There is an API in the machine which connects the sever to get the Validation requests.Finally the Machine dispences the item chose by the user
   
  ## TECHNOLOGIES
   ### Cashless payments																
