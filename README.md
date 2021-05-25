@@ -70,6 +70,28 @@ the solution to all the problem is a Smart vending machine which has the (Gender
   ![interface](https://github.com/cepdnaclk/e16-3yp-smart-vending-machine/blob/main/docs/signup.jpeg)
   This is the SignUp page where you can Sign up for a new Account.The creditentials can be created here and there is a email checker and the email should be legitimate to sign in 
   
+  ![interface](https://github.com/cepdnaclk/e16-3yp-smart-vending-machine/blob/main/docs/ui2.jpeg)
+  After Signing in you will have a page similar to the home page but you can see your account and you can make changes to your account when you click on your profile picture.And also you will have an Profile Button on your webpage where you can go and change your account settings. 
+  ![interface](https://github.com/cepdnaclk/e16-3yp-smart-vending-machine/blob/main/docs/cartview.jpeg)
+  After you added the items your Cart the cart looks like this and you can edit the items that you are going to add here also.If you click check out it will take to a page where your can pay for the Items.You can use continue shopping to go back and add more items to the cart.
+  ![interface](https://github.com/cepdnaclk/e16-3yp-smart-vending-machine/blob/main/docs/payment.jpeg)
+  When you go to the checkout page you can see that it will ask for a name and an email. It is just for the invoice so you can use it for refunds and other proceeds. 
+  ![interface](https://github.com/cepdnaclk/e16-3yp-smart-vending-machine/blob/main/docs/payways.jpeg)
+  After giving the Email and the name You can choose the way to pay (Paypal / Debit Card /Credit card).After choosing the payment method you will be redirected to a dialog box which is going popup and you can give your details there and pay for the items and you will receive the items. 
+
+  ![interface](https://github.com/cepdnaclk/e16-3yp-smart-vending-machine/blob/main/docs/paypal.jpeg)
+    pop up will redirect you to Paypal
+
+  ![interface](https://github.com/cepdnaclk/e16-3yp-smart-vending-machine/blob/main/docs/admindata.jpeg)
+  If you Login with the admin Credentials you can see all the transactions that have happened with the vending machine over the time. And you can check who has bought the items and their characteristics according to their accounts.And also you can check the pending transactions. 
+  ![interface](https://github.com/cepdnaclk/e16-3yp-smart-vending-machine/blob/main/docs/productadd.jpeg)
+  If you Login as an Admin You can also change the number of products in the vending machine.If you see any miscalculations. And also you can search for items according to their places and the prices and also the names. 
+  ![interface](https://github.com/cepdnaclk/e16-3yp-smart-vending-machine/blob/main/docs/OrderQR.jpeg)
+  The other page you can check are the QR codes of the customers who are going to buy the items. 
+
+
+  
+   
  ## TESTING
  
   ### URL unit Testing
