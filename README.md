@@ -21,6 +21,9 @@
 2. >[Overview](https://github.com/cepdnaclk/e16-3yp-smart-vending-machine#overview)
 3. >[Solutions](https://github.com/cepdnaclk/e16-3yp-smart-vending-machine#solutions)
 4. >[Technologies](https://github.com/cepdnaclk/e16-3yp-smart-vending-machine#technologies)
+4. >[User Interface](https://github.com/cepdnaclk/e16-3yp-smart-vending-machine#Interface)
+4. >[Hardware Components](https://github.com/cepdnaclk/e16-3yp-smart-vending-machine#Components)
+4. >[Hardware Design](https://github.com/cepdnaclk/e16-3yp-smart-vending-machine#Design)
 5. >[Testing](https://github.com/cepdnaclk/e16-3yp-smart-vending-machine#testing)
 6. >[Detailed budget](https://github.com/cepdnaclk/e16-3yp-smart-vending-machine#budget)
 7. >[Links](https://github.com/cepdnaclk/e16-3yp-smart-vending-machine#Links)
@@ -57,6 +60,9 @@ the solution to all the problem is a Smart vending machine which has the (Gender
    * Making sure the vending machine only works when a customers there. 
      Minor changes can be made to ensure energy saving.
 
+## INTERFACE
+  ![interface](https://github.com/cepdnaclk/e16-3yp-smart-vending-machine/blob/main/docs/ui1.jpeg)
+  The Website gets you to this Home page which Can be used to directly buy items or you can sign in and buy things If you sign in the company can give you discounts or other options.And also from the Homepage you can go to the cart which has the items you selected and the total amount.Other than that you can also go to the tab pending orders and use the QR codes to get the paid items to dispense. 
   
  ## TESTING
  
