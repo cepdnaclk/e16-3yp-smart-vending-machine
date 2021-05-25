@@ -89,7 +89,19 @@ the solution to all the problem is a Smart vending machine which has the (Gender
   ![interface](https://github.com/cepdnaclk/e16-3yp-smart-vending-machine/blob/main/docs/OrderQR.jpeg)
   The other page you can check are the QR codes of the customers who are going to buy the items. 
 
+## COMPONENTS
+ ### Raspberry Pi 3 
+Broadcom BCM2837 64bit ARMv7 Quad Core Processor powered Single Board Computer running at 1.2GHz 1GB RAM
 
+BCM43143 WiFi on board Bluetooth Low Energy (BLE) on board
+
+40pin extended GPIO , 4 x USB 2 ports 4 pole
+
+Stereo output and Composite video port Full size HDMI
+
+CSI camera port for connecting the Raspberry Pi camera
+
+Upgraded switched Micro USB power source (now supports up to 2.4 Amps) Expected to have the same form factor has the Pi 2 Model B, however the LEDs will change position
   
    
  ## TESTING
