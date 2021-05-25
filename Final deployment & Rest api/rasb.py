@@ -37,7 +37,7 @@ load={
 
 try :
 
-    response = requests.post('http://ec2-54-161-131-135.compute-1.amazonaws.com/api/api/token/', json=load)
+    response = requests.post('https://smart-happyvending.herokuapp.com/api/api/token/', json=load)
     data=ast.literal_eval(response.text) 
 
     response.raise_for_status()
@@ -54,7 +54,7 @@ header={}
 
 header['Authorization']='Bearer  '+ data['access']
 # print(header)
-url='http://ec2-54-161-131-135.compute-1.amazonaws.com/api/orders/'+qrData['Id']+'/'
+url='https://smart-happyvending.herokuapp.com/api/orders/'+qrData['Id']+'/'
 
 try :
 
