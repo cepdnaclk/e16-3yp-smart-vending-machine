@@ -91,17 +91,17 @@ the solution to all the problem is a Smart vending machine which has the (Gender
 
 ## COMPONENTS
  ### Raspberry Pi 3 
-Broadcom BCM2837 64bit ARMv7 Quad Core Processor powered Single Board Computer running at 1.2GHz 1GB RAM
+* Broadcom BCM2837 64bit ARMv7 Quad Core Processor powered Single Board Computer running at 1.2GHz 1GB RAM
 
-BCM43143 WiFi on board Bluetooth Low Energy (BLE) on board
+* BCM43143 WiFi on board Bluetooth Low Energy (BLE) on board
 
-40pin extended GPIO , 4 x USB 2 ports 4 pole
+* 40pin extended GPIO , 4 x USB 2 ports 4 pole
 
-Stereo output and Composite video port Full size HDMI
+* Stereo output and Composite video port Full size HDMI
 
-CSI camera port for connecting the Raspberry Pi camera
+* CSI camera port for connecting the Raspberry Pi camera
 
-Upgraded switched Micro USB power source (now supports up to 2.4 Amps) Expected to have the same form factor has the Pi 2 Model B, however the LEDs will change position
+* Upgraded switched Micro USB power source (now supports up to 2.4 Amps) Expected to have the same form factor has the Pi 2 Model B, however the LEDs will change position
   
    
  ## TESTING
