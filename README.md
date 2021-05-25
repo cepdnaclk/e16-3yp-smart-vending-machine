@@ -193,6 +193,12 @@ stepper motor provides a constant holding torque without the need for the motor 
 * 120 degree detection angle
 
 * Low power consumption in idle mode only 50uA and 65mA in fully active mode. 
+
+## Design
+
+![testing](https://github.com/cepdnaclk/e16-3yp-smart-vending-machine/blob/main/docs/hardware.png)
+![testing](https://github.com/cepdnaclk/e16-3yp-smart-vending-machine/blob/main/docs/machine.png)
+For the Convenience of the user the design was made to demonstrate which has all the attributes and more of a vending machine In the picture you can see a screen which is used to communicate with the user and there is a proximity sensor to make sure the vending machine only works when someone is present 
  ## TESTING
  
   ### URL unit Testing
