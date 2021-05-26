@@ -38,8 +38,7 @@
  ## OVERVIEW
   In Smart vending machine we are addresiing the problems faced by the companies and the Consumers in communication and 
   transaction. We hope to give a real time analysis of the market for each and every product available in the vending machine.
-  ![overview](https://github.com/cepdnaclk/e16-3yp-smart-vending-machine/blob/main/docs/show2.png)
-   [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/xATIKf_y-vo/0.jpg)](https://www.youtube.com/watch?v=xATIKf_y-vo)
+  
 
 
   The software architecture works like the above mentioned picture First user accesses the web application and he chooses the products and the interface was made by the Python Django and the details are updated in to the database which is made by MongoDB And it is al so in the server which is The Amazon EC3 instance All the communications are done through https. There is an API in the machine which connects the sever to get the Validation requests.Finally the Machine dispences the item chose by the user
@@ -49,7 +48,7 @@
   Problems in having a traditional vending machine are - Having to pay for the products with cash most of the time.Easy to hack Traditional vending machine.Prices and Expiry dates are not checked by the Traditional vending machine.
 
 the solution to all the problem is a Smart vending machine which has the (Gender ,Age ,generation wise) analysis , 24 hours Distribution and vending services , Transaction Datbase services. Which can be used to check the performance of a product in a specific market.Prices and expiry dates are real time because it is connected to the cloud.
- ![overview](https://github.com/cepdnaclk/e16-3yp-smart-vending-machine/blob/main/docs/show1.png)
+ 
 
   
  ## TECHNOLOGIES
@@ -63,7 +62,10 @@ the solution to all the problem is a Smart vending machine which has the (Gender
      Minor changes can be made to ensure energy saving.
 
 ## INTERFACE
-  ![interface](https://github.com/cepdnaclk/e16-3yp-smart-vending-machine/blob/main/docs/ui1.jpeg)
+
+ ### Online Demonstration Video
+  ![overview](https://github.com/cepdnaclk/e16-3yp-smart-vending-machine/blob/main/docs/show1.png)
+![interface](https://github.com/cepdnaclk/e16-3yp-smart-vending-machine/blob/main/docs/ui1.jpeg)
   The Website gets you to this Home page which Can be used to directly buy items or you can sign in and buy things If you sign in the company can give you discounts or other options.And also from the Homepage you can go to the cart which has the items you selected and the total amount.Other than that you can also go to the tab pending orders and use the QR codes to get the paid items to dispense. 
 
   ![interface](https://github.com/cepdnaclk/e16-3yp-smart-vending-machine/blob/main/docs/ui2.jpeg)
