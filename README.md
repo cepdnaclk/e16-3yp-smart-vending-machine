@@ -5,7 +5,7 @@
  ![top](https://github.com/cepdnaclk/e16-3yp-smart-vending-machine/blob/main/docs/Milestone%203.png)
 
 [**Click here to check our website!!**](https://cepdnaclk.github.io/e16-3yp-smart-vending-machine/index.html)
-
+ 
 
 ## Group Members
    > [S Bragadeeshan](https://github.com/Bragadeeshan)   :: E/16/055 :: e16055@eng.pdn.ac.lk
@@ -32,6 +32,7 @@
  ## PROBLEMS
    Lack of 24 hrs Open Shops.MRP products sold for higher prices.Having a big space for a shop.Having to pay for the products with cash most of the time.Easy to hack Traditional vending machine.Prices and Expiry dates are not checked by the  Traditional vending machine.
     ![problems](https://github.com/cepdnaclk/e16-3yp-smart-vending-machine/blob/main/docs/COMPARISON-FA-01.jpg)
+    ![ALGORITHM](https://github.com/cepdnaclk/e16-3yp-smart-vending-machine/blob/main/docs/ProjectVideo_1.mp4?raw=true)
 
 
  ## OVERVIEW
