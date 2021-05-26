@@ -65,6 +65,8 @@ the solution to all the problem is a Smart vending machine which has the (Gender
 
  ### Online Demonstration Video
  [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/xATIKf_y-vo/0.jpg)](https://www.youtube.com/watch?v=xATIKf_y-vo)
+ 
+ 
 ![interface](https://github.com/cepdnaclk/e16-3yp-smart-vending-machine/blob/main/docs/ui1.jpeg)
   The Website gets you to this Home page which Can be used to directly buy items or you can sign in and buy things If you sign in the company can give you discounts or other options.And also from the Homepage you can go to the cart which has the items you selected and the total amount.Other than that you can also go to the tab pending orders and use the QR codes to get the paid items to dispense. 
 
