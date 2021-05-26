@@ -32,7 +32,7 @@
  ## PROBLEMS
    Lack of 24 hrs Open Shops.MRP products sold for higher prices.Having a big space for a shop.Having to pay for the products with cash most of the time.Easy to hack Traditional vending machine.Prices and Expiry dates are not checked by the  Traditional vending machine.
     ![problems](https://github.com/cepdnaclk/e16-3yp-smart-vending-machine/blob/main/docs/COMPARISON-FA-01.jpg)
-    ![ALGORITHM](https://drive.google.com/drive/folders/1Zf2IyyFcNTGqMHtO5P461UkZl2xVOiCV?raw=true)
+    ![ALGORITHM](https://drive.google.com/drive/folders/1Zf2IyyFcNTGqMHtO5P461UkZl2xVOiCV)
 
 
  ## OVERVIEW
