@@ -39,6 +39,7 @@
   In Smart vending machine we are addresiing the problems faced by the companies and the Consumers in communication and 
   transaction. We hope to give a real time analysis of the market for each and every product available in the vending machine.
   ![overview](https://github.com/cepdnaclk/e16-3yp-smart-vending-machine/blob/main/docs/show2.png)
+   [![Add-youtube-link-in-Readme.md](https://img.youtube.com/vi/xATIKf_y-vo/edit/0.jpg)](https://www.youtube.com/watch?v=xATIKf_y-vo/edit)
 
 
   The software architecture works like the above mentioned picture First user accesses the web application and he chooses the products and the interface was made by the Python Django and the details are updated in to the database which is made by MongoDB And it is al so in the server which is The Amazon EC3 instance All the communications are done through https. There is an API in the machine which connects the sever to get the Validation requests.Finally the Machine dispences the item chose by the user
