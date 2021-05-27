@@ -3,6 +3,53 @@ import ast
 from pyzbar.pyzbar import decode
 from PIL import Image
 from requests.exceptions import HTTPError
+ledPin11 = 11     # GPIO 17
+ledPin15 = 15    # GPIO 17
+ledPin19 = 19    # GPIO 17
+ 
+delay = 2   # 1s
+loopCnt = 100
+
+ 
+def mainout(product):
+    # for i in range(10):
+    #     GPIO.output(ledPin, GPIO.HIGH)  # output 3.3 V from GPIO pin
+    #     time.sleep(delay)   # delay for 1s
+    #     GPIO.output(ledPin , GPIO.LOW)  # output 0 V from GPIO pin
+    #     time.sleep(delay)   # delay for 1s
+    if product[Snickers]>0:
+        n=product[Snickers]
+        for i in range(n):
+            GPIO.output(ledPin11, GPIO.HIGH)  # output 3.3 V from GPIO pin
+            time.sleep(delay)   # delay for 1s
+            GPIO.output(ledPin11 , GPIO.LOW)  # output 0 V from GPIO pin
+            time.sleep(delay)   # delay for 1s
+    if product['Coca-Cola']>0:
+        n=product['Coca-Cola']
+        for i in range(n):
+            GPIO.output(ledPin11, GPIO.HIGH)  # output 3.3 V from GPIO pin
+            time.sleep(delay)   # delay for 1s
+            GPIO.output(ledPin11 , GPIO.LOW)  # output 0 V from GPIO pin
+            time.sleep(delay)   # delay for 1s
+    if product['Red Bull']>0:
+        n=product['Red Bull']
+        for i in range(n):
+            GPIO.output(ledPin11, GPIO.HIGH)  # output 3.3 V from GPIO pin
+            time.sleep(delay)   # delay for 1s
+            GPIO.output(ledPin11 , GPIO.LOW)  # output 0 V from GPIO pin
+            time.sleep(delay)   # delay for 1s
+
+
+
+ 
+def setup():
+    GPIO.setmode(GPIO.BOARD)
+    GPIO.setup(ledPin11, GPIO.OUT)    # initialize GPIO pin as OUTPUT pin
+    GPIO.output(ledPin11, GPIO.LOW)
+    GPIO.setup(ledPin15, GPIO.OUT)    # initialize GPIO pin as OUTPUT pin
+    GPIO.output(ledPin15, GPIO.LOW)
+    GPIO.setup(ledPin19, GPIO.OUT)    # initialize GPIO pin as OUTPUT pin
+    GPIO.output(ledPin19, GPIO.LOW)
 
 def validate(qrData,serverData):
     valid=False
@@ -24,7 +71,7 @@ def validate(qrData,serverData):
 
 #Qrcode reading 
 
-d = decode(Image.open('qr_code.png'))
+d = decode(Image.open('qrcode-kumar-1621968554.296135.png'))
 qrData=json.loads(d[0].data.decode('utf-8'))
 # print(qrData)
 
@@ -87,6 +134,9 @@ if Valid and (float(qrData['amountTopay'])==float(qrData["paid_amount"])) :
     print('You can Get :',qrData['orderProductes'])
     update={}
     update['status']='Delivered'
+    setup()
+    mainout(qrData['orderProductes']))
+    GPIO.cleanup()  # free up the resources used
     try:
         response = requests.put(url,headers=header ,data =update)
         response.raise_for_status()

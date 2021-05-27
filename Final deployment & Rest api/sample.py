@@ -3,6 +3,28 @@ import ast
 from pyzbar.pyzbar import decode
 from PIL import Image
 from requests.exceptions import HTTPError
+import RPi.GPIO as GPIO
+import time
+ 
+ledPin = 11     # GPIO 17
+ 
+delay = 1   # 1s
+loopCnt = 100
+
+ 
+def main():
+    for i in range(10):
+        GPIO.output(ledPin, GPIO.HIGH)  # output 3.3 V from GPIO pin
+        time.sleep(delay)   # delay for 1s
+        GPIO.output(ledPin , GPIO.LOW)  # output 0 V from GPIO pin
+        time.sleep(delay)   # delay for 1s
+ 
+def setup():
+    GPIO.setmode(GPIO.BOARD)
+    GPIO.setup(ledPin, GPIO.OUT)    # initialize GPIO pin as OUTPUT pin
+    GPIO.output(ledPin, GPIO.LOW)
+     
+
 
 def validate(qrData,serverData):
     valid=False
@@ -18,13 +40,12 @@ def validate(qrData,serverData):
     and (qrData['customerName']==serverData["customer"])):
         
         valid=True
-    print(serverIterm)
     return valid 
 
 
 #Qrcode reading 
 
-d = decode(Image.open('qr_code.png'))
+d = decode(Image.open('qr.jpeg'))
 qrData=json.loads(d[0].data.decode('utf-8'))
 # print(qrData)
 
@@ -46,8 +67,7 @@ try :
 
 except HTTPError as http_err:
         print(f'HTTP error occurred: {http_err}')  # Python 3.6
-except Exception as err:
-        print(f'Other error occurred: {err}')  # Python 3.6
+ 
 
  
 # print(type(response.text))
@@ -69,10 +89,8 @@ try :
     jsonData = json.loads(response.text)
     # print(jsonData)
     serverData=jsonData 
-    print(qrData)
-    print(serverData)
+
     Valid =validate(qrData,serverData)
-    print(Valid)
      
 
 
@@ -85,23 +103,11 @@ if Valid and (float(qrData['amountTopay'])==float(qrData["paid_amount"])) :
 
     print('hey !!',serverData["customer"],'Your Order is Approved')
     print('You can Get :',qrData['orderProductes'])
-    update={}
-    update['status']='Delivered'
-    try:
-        response = requests.put(url,headers=header ,data =update)
-        response.raise_for_status()
-        #print(response.text)
-    except HTTPError as http_err:
-        print(f'HTTP error occurred: {http_err}')  # Python 3.6
-    except Exception as err:
-        print(f'Other error occurred: {err}')  # Python 3.6
-
 
 else:
-    '''update={}
-    update['status']='Pending'
-    update['complete']=True
-    response = requests.put(url,headers=header ,data =update)
-    print(response.text)'''
+    setup()
+    main()
+    GPIO.cleanup()  # free up the resources used
+
     print('Sorry your code is Invalid')
 

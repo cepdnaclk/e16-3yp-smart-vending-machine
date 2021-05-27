@@ -21,12 +21,13 @@
 2. >[Overview](https://github.com/cepdnaclk/e16-3yp-smart-vending-machine#overview)
 3. >[Solutions](https://github.com/cepdnaclk/e16-3yp-smart-vending-machine#solutions)
 4. >[Technologies](https://github.com/cepdnaclk/e16-3yp-smart-vending-machine#technologies)
-4. >[User Interface](https://github.com/cepdnaclk/e16-3yp-smart-vending-machine#Interface)
-4. >[Hardware Components](https://github.com/cepdnaclk/e16-3yp-smart-vending-machine#Components)
-4. >[Hardware Design](https://github.com/cepdnaclk/e16-3yp-smart-vending-machine#Design)
-5. >[Testing](https://github.com/cepdnaclk/e16-3yp-smart-vending-machine#testing)
-6. >[Detailed budget](https://github.com/cepdnaclk/e16-3yp-smart-vending-machine#budget)
-7. >[Links](https://github.com/cepdnaclk/e16-3yp-smart-vending-machine#Links)
+5. >[User Interface](https://github.com/cepdnaclk/e16-3yp-smart-vending-machine#Interface)
+6. >[Hardware Components](https://github.com/cepdnaclk/e16-3yp-smart-vending-machine#Components)
+7. >[Hardware Design](https://github.com/cepdnaclk/e16-3yp-smart-vending-machine#Design)
+8. >[Hardware simulation](https://github.com/cepdnaclk/e16-3yp-smart-vending-machine#simulation)
+9. >[Testing](https://github.com/cepdnaclk/e16-3yp-smart-vending-machine#testing)
+10. >[Detailed budget](https://github.com/cepdnaclk/e16-3yp-smart-vending-machine#budget)
+11. >[Links](https://github.com/cepdnaclk/e16-3yp-smart-vending-machine#Links)
 
  
  ## PROBLEMS
@@ -206,6 +207,14 @@ stepper motor provides a constant holding torque without the need for the motor 
 ![testing](https://github.com/cepdnaclk/e16-3yp-smart-vending-machine/blob/main/docs/hardware.png)
 ![testing](https://github.com/cepdnaclk/e16-3yp-smart-vending-machine/blob/main/docs/machine.png)
 For the Convenience of the user the design was made to demonstrate which has all the attributes and more of a vending machine In the picture you can see a screen which is used to communicate with the user and there is a proximity sensor to make sure the vending machine only works when someone is present 
+
+## SIMULATION
+  [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/n6SSInbJ3lg/0.jpg)](https://www.youtube.com/watch?v=n6SSInbJ3lg)
+  ![testing](https://github.com/cepdnaclk/e16-3yp-smart-vending-machine/blob/main/docs/Schematic_View.jpg)
+  <iframe height="350" width="600"
+  src="https://www.youtube.com/embed/n6SSInbJ3lg">
+</iframe>
+
  ## TESTING
  
   ### URL unit Testing
