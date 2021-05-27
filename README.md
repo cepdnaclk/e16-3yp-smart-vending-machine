@@ -21,13 +21,14 @@
 2. >[Overview](https://github.com/cepdnaclk/e16-3yp-smart-vending-machine#overview)
 3. >[Solutions](https://github.com/cepdnaclk/e16-3yp-smart-vending-machine#solutions)
 4. >[Technologies](https://github.com/cepdnaclk/e16-3yp-smart-vending-machine#technologies)
-5. >[User Interface](https://github.com/cepdnaclk/e16-3yp-smart-vending-machine#Interface)
-6. >[Hardware Components](https://github.com/cepdnaclk/e16-3yp-smart-vending-machine#Components)
-7. >[Hardware Design](https://github.com/cepdnaclk/e16-3yp-smart-vending-machine#Design)
-8. >[Hardware simulation](https://github.com/cepdnaclk/e16-3yp-smart-vending-machine#simulation)
-9. >[Testing](https://github.com/cepdnaclk/e16-3yp-smart-vending-machine#testing)
-10. >[Detailed budget](https://github.com/cepdnaclk/e16-3yp-smart-vending-machine#budget)
-11. >[Links](https://github.com/cepdnaclk/e16-3yp-smart-vending-machine#Links)
+5. >[Software Architecture](https://github.com/cepdnaclk/e16-3yp-smart-vending-machine#Architecture)
+6. >[User Interface](https://github.com/cepdnaclk/e16-3yp-smart-vending-machine#Interface)
+7. >[Hardware Components](https://github.com/cepdnaclk/e16-3yp-smart-vending-machine#Components)
+8. >[Hardware Design](https://github.com/cepdnaclk/e16-3yp-smart-vending-machine#Design)
+9. >[Hardware simulation](https://github.com/cepdnaclk/e16-3yp-smart-vending-machine#simulation)
+10. >[Testing](https://github.com/cepdnaclk/e16-3yp-smart-vending-machine#testing)
+11. >[Detailed budget](https://github.com/cepdnaclk/e16-3yp-smart-vending-machine#budget)
+12. >[Links](https://github.com/cepdnaclk/e16-3yp-smart-vending-machine#Links)
 
  
  ## PROBLEMS
@@ -47,7 +48,7 @@
   
  ## SOLUTIONS
   Problems in having a traditional vending machine are - Having to pay for the products with cash most of the time.Easy to hack Traditional vending machine.Prices and Expiry dates are not checked by the Traditional vending machine.
-  
+
 ![overview](https://github.com/cepdnaclk/e16-3yp-smart-vending-machine/blob/main/docs/show1.png)
 the solution to all the problem is a Smart vending machine which has the (Gender ,Age ,generation wise) analysis , 24 hours Distribution and vending services , Transaction Datbase services. Which can be used to check the performance of a product in a specific market.Prices and expiry dates are real time because it is connected to the cloud.
  
@@ -62,6 +63,24 @@ the solution to all the problem is a Smart vending machine which has the (Gender
   ### Energy-Saving Vending															
    * Making sure the vending machine only works when a customers there. 
      Minor changes can be made to ensure energy saving.
+
+## SOFTWARE ARCHITECTURE
+  ### Back End Tasks Done
+  #### User Registration (User /Admin/Companies)
+
+      Where users are classified into who they are according to their Credential. These Roles can determine the access given to a selected user.
+  #### Payment Handling
+
+    Payment Handling is done through PayPal Which is a secured Payment Gateway
+#### Add /Modify/Delete Items
+
+  The admin can Edit any information about the items available
+#### Validation
+
+  QR code is used for more security and also Django Rest API is used for validity
+#### Transactions
+
+  Every Transaction Done can be Seen by an admin .The User can also see the previous Transactions done by him.
 
 ## INTERFACE
 
