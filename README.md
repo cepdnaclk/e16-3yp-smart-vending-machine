@@ -64,23 +64,23 @@ the solution to all the problem is a Smart vending machine which has the (Gender
    * Making sure the vending machine only works when a customers there. 
      Minor changes can be made to ensure energy saving.
 
-## SOFTWARE ARCHITECTURE
+## ARCHITECTURE
   ### Back End Tasks Done
   #### User Registration (User /Admin/Companies)
 
-      Where users are classified into who they are according to their Credential. These Roles can determine the access given to a selected user.
+    Where users are classified into who they are according to their Credential. These Roles can determine the access given to a selected user.
   #### Payment Handling
 
     Payment Handling is done through PayPal Which is a secured Payment Gateway
 #### Add /Modify/Delete Items
 
-  The admin can Edit any information about the items available
+    The admin can Edit any information about the items available
 #### Validation
 
-  QR code is used for more security and also Django Rest API is used for validity
+    QR code is used for more security and also Django Rest API is used for validity
 #### Transactions
 
-  Every Transaction Done can be Seen by an admin .The User can also see the previous Transactions done by him.
+    Every Transaction Done can be Seen by an admin .The User can also see the previous Transactions done by him.
 
 ## INTERFACE
 
