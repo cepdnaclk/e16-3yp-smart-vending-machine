@@ -210,7 +210,7 @@ For the Convenience of the user the design was made to demonstrate which has all
 
 ## SIMULATION
   [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/n6SSInbJ3lg/0.jpg)](https://www.youtube.com/watch?v=n6SSInbJ3lg)
-  ![testing](https://github.com/cepdnaclk/e16-3yp-smart-vending-machine/blob/main/docs/Schematic_View.jpg)
+  ![testing](https://github.com/cepdnaclk/e16-3yp-smart-vending-machine/blob/main/docs/SchematicView.jpg)
   <iframe height="350" width="600"
   src="https://www.youtube.com/embed/n6SSInbJ3lg">
 </iframe>
