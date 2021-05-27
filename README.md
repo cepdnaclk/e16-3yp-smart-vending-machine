@@ -214,6 +214,8 @@ Click to watch  Online Demonstration Video in YouTube
   ### Schematic Diagram
   ![testing](https://github.com/cepdnaclk/e16-3yp-smart-vending-machine/blob/main/docs/SchematicView.jpg)
   
+  For Demonstration purposes we have used proteus simulation platform here firstly the Vending Machine circuit is in OFF state and then if any person comes near the vending machine the PIR sensor detects the person and all the system comes to the on state Then the LED display shows the Welcome message asks to input the QR code.If the user adds the QR code (which has the details of the Transaction). the Vending machine sends a Validation request through an API call.If the QR code is valid then according to the Item list the motors according to the Item will rotate and the Items are delivered.The weight sensor makes sure if the items are delivered and the system goes to the power off State 
+  
 
  ## TESTING
  
