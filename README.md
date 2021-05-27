@@ -64,7 +64,8 @@ the solution to all the problem is a Smart vending machine which has the (Gender
 ## INTERFACE
 
  ### Online Demonstration Video
- [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/xATIKf_y-vo/0.jpg)](https://www.youtube.com/watch?v=xATIKf_y-vo)
+ [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/xATIKf_y-vo/0.jpg)](https://www.youtube.com/watch?v=h6RIBUuqOs0)
+ 
  
  
 ![interface](https://github.com/cepdnaclk/e16-3yp-smart-vending-machine/blob/main/docs/ui1.jpeg)
