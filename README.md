@@ -40,14 +40,15 @@
   In Smart vending machine we are addresiing the problems faced by the companies and the Consumers in communication and 
   transaction. We hope to give a real time analysis of the market for each and every product available in the vending machine.
   
-
+![overview](https://github.com/cepdnaclk/e16-3yp-smart-vending-machine/blob/main/docs/show2.png)
 
   The software architecture works like the above mentioned picture First user accesses the web application and he chooses the products and the interface was made by the Python Django and the details are updated in to the database which is made by MongoDB And it is al so in the server which is The Amazon EC3 instance All the communications are done through https. There is an API in the machine which connects the sever to get the Validation requests.Finally the Machine dispences the item chose by the user
   
   
  ## SOLUTIONS
   Problems in having a traditional vending machine are - Having to pay for the products with cash most of the time.Easy to hack Traditional vending machine.Prices and Expiry dates are not checked by the Traditional vending machine.
-
+  
+![overview](https://github.com/cepdnaclk/e16-3yp-smart-vending-machine/blob/main/docs/show1.png)
 the solution to all the problem is a Smart vending machine which has the (Gender ,Age ,generation wise) analysis , 24 hours Distribution and vending services , Transaction Datbase services. Which can be used to check the performance of a product in a specific market.Prices and expiry dates are real time because it is connected to the cloud.
  
 
@@ -212,9 +213,10 @@ For the Convenience of the user the design was made to demonstrate which has all
 Click to watch  Online Demonstration Video in YouTube
   [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/n6SSInbJ3lg/0.jpg)](https://www.youtube.com/watch?v=n6SSInbJ3lg)
   ### Schematic Diagram
-  ![testing](https://github.com/cepdnaclk/e16-3yp-smart-vending-machine/blob/main/docs/SchematicView.jpg)
-  
   For Demonstration purposes we have used proteus simulation platform here firstly the Vending Machine circuit is in OFF state and then if any person comes near the vending machine the PIR sensor detects the person and all the system comes to the on state Then the LED display shows the Welcome message asks to input the QR code.If the user adds the QR code (which has the details of the Transaction). the Vending machine sends a Validation request through an API call.If the QR code is valid then according to the Item list the motors according to the Item will rotate and the Items are delivered.The weight sensor makes sure if the items are delivered and the system goes to the power off State 
+  ![testing](https://github.com/cepdnaclk/e16-3yp-smart-vending-machine/blob/main/docs/SchematicView.jpg)
+
+  
   
 
  ## TESTING
