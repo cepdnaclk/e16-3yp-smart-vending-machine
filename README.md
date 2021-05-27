@@ -64,9 +64,9 @@ the solution to all the problem is a Smart vending machine which has the (Gender
    * Making sure the vending machine only works when a customers there. 
      Minor changes can be made to ensure energy saving.
 
-##   SOFTWARE ARCHITECTURE
+##   SOFTWARE  
   ### Back End Tasks Done
-### User Registration (User /Admin/Companies)
+#### User Registration (User /Admin/Companies)
 Where users are classified into who they are according to their Credential. These Roles can determine the access given to a selected user.
 #### Payment Handling
 
@@ -80,6 +80,30 @@ QR code is used for more security and also Django Rest API is used for validity
 #### Transactions
 
 Every Transaction Done can be Seen by an admin .The User can also see the previous Transactions done by him.
+
+
+### Server
+Local server is made using Python Django
+
+The database is made in PostGreSQL
+
+Communication to AWS is done through HTTPS 
+
+### Cloud Server
+
+ Host in amazon EC2 Instance
+
+Nginix Server is used because Nginx is built to offer low memory usage and high concurrency. Rather than creating new processes for each web request, Nginx uses an asynchronous, event-driven approach where requests are handled in a single thread. With Nginx, one master process can control multiple worker processes.
+
+Gunicorn is used and it internally hands the calling of our flask code. This is done by having workers ready to handle the requests instead of the sequential one-at-a-time model that the default flask server provides. The end result is our app can handle more requests per second
+
+Built with Python Django
+
+Used database PostGreSQL 
+
+### Rest API
+
+To authenticate we are using JSON web token because it securely transfers information between software and Hardware as an JSON file.It has 2 tokens one is access token which expires within 5 minutes . We are using Rate limit to make sure the hardware/Web Application does not get overloaded by API calls to the cloud and it is only 60 API calls per hour.It ensure the safety of the systems.We can do GET,PUT,POST,DELETE in the APIs that are available in the system. 
 
 ## INTERFACE
 
