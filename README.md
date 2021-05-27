@@ -209,11 +209,11 @@ stepper motor provides a constant holding torque without the need for the motor 
 For the Convenience of the user the design was made to demonstrate which has all the attributes and more of a vending machine In the picture you can see a screen which is used to communicate with the user and there is a proximity sensor to make sure the vending machine only works when someone is present 
 
 ## SIMULATION
+Click to watch  Online Demonstration Video in YouTube
   [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/n6SSInbJ3lg/0.jpg)](https://www.youtube.com/watch?v=n6SSInbJ3lg)
+  ### Schematic Diagram
   ![testing](https://github.com/cepdnaclk/e16-3yp-smart-vending-machine/blob/main/docs/SchematicView.jpg)
-  <iframe height="350" width="600"
-  src="https://www.youtube.com/embed/n6SSInbJ3lg">
-</iframe>
+  
 
  ## TESTING
  
