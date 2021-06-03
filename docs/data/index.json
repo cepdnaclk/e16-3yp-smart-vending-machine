@@ -1,0 +1,38 @@
+{
+   "title": "Smart Vending Machine",
+    "team": [
+        {
+            "name": "Karikaran Vettivel",
+            "email": "e16172@eng.pdn.ac.lk",
+            "eNumber": "E/16/172",
+            "github_profile":"https://github.com/Karikaranvetti",
+            "linkedin_profile":"https://www.linkedin.com/in/karikaranvetti/"
+        },
+        {
+            "name": "Bragadeeshan Suppusamy ",
+            "email": "e16065@eng.pdn.ac.lk",
+            "eNumber": "E/16/055",
+            "github_profile":"https://github.com/Bragadeeshan",
+            "linkedin_profile":"https://www.linkedin.com/in/bragadeeshansuppusamy"
+        },
+        {
+            "name": "Girishikan Selvaratnam",
+            "email": "e16115@eng.pdn.ac.lk",
+            "eNumber": "E/16/115",
+            "github_profile":"https://github.com/girish4848",
+            "linkedin_profile":"https://www.linkedin.com/in/girishikan-selvaratnam-78b9a01a7/"
+        }
+    ],
+    "supervisors": [
+        {
+            "name": "Dr. Isuru Nawinne",
+            "email": "isurunawinne@eng.pdn.ac.lk",
+             
+        },
+        {
+            "name": "Dr Ziyan Marikkar",
+            
+        }
+    ],
+    "tags": ["Web", "Embedded Systems"]
+}
